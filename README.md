@@ -1,27 +1,100 @@
-# 💫 About Me:
-Kishlay Raj<br>Software Engineer<br>East Champaran, India<br>Email: rajkishlay786@gmail.com<br>Phone: 8271054558<br>www.linkedin.com/in/kishlay-raj-409853154<br>Summary<br>Skilled Backend Developer with hands-on experience in designing and implementing robust solutions for IoT, AI, and automation-based applications. Proficient in Python, Django, MQTT, and AWS, with expertise in building scalable architectures for real-time energy monitoring, water pump automation, and BLDC fan control systems. Adept at leveraging cloud platforms and web servers like AWS and Apache to deploy and maintain secure and efficient applications. Demonstrates a strong ability to integrate IoT technologies, optimize system performance, and deliver innovative solutions tailored to real-world challenges.<br>Work Experience<br>Software Development Engineer<br>Watthut Electronics Pvt. Ltd.<br>01/2025 – Present<br>•<br>Working as a backend developer for a remote monitoring system tailored for ongrid and hybrid solar inverters.<br>•<br>Designing backend architecture using Python and Django for real-time device control and data monitoring.<br>•<br>Managing and deploying services on Amazon Web Services (AWS) for cloud infrastructure.<br>•<br>Overseeing secure and scalable backend systems using Apache, with cloud data integrations and IoT protocol handling.<br>Software Development Engineer<br>LongLasst INC., Gurugram<br>06/2024 - 12/2024<br>Manufacture and design glass, steel, and automation products with a wide range of quality material for commercial use and household.<br>Achievements/Tasks:<br>•<br>Designed and developed backend for a BLDC fan automation system using Python and Django.<br>•<br>Implemented MQTT for real-time communication and control, ensuring seamless device interaction.<br>•<br>Deployed the application on AWS servers with Apache, providing a reliable and scalable solution for efficient fan operation and monitoring.<br>Software Development Engineer<br>GlobAIoT PVT LTD<br>03/2023 - 05/2024<br>Smart Meter and Pump Automation service provider.<br>Achievements/Tasks:<br>•<br>Designed and implemented backend system for an RTU application dedicated to energy meter monitoring and water pump automation.<br>•<br>Developed scalable backend architecture using Python and Django, ensuring seamless integration with IoT devices.<br>•<br>Leveraged MQTT protocol for real-time data communication between energy meters, water pumps, and the application.<br>•<br>Deployed and managed the application on AWS servers, utilizing Apache for robust web server functionality.<br>Graduate Engineer Trainee<br>Pinglaksh Anveshnam PVT LTD<br>02/2022 - 02/2023<br>AI/IoT/Automation-Based Startup.<br>Achievements/Tasks:<br>•<br>Designed and developed backend architecture for a home automation IoT application using Python, Django, Apache, MQTT, and AWS.<br>•<br>Enabled efficient and secure remote control of home appliances.<br>Intern<br>Pinglaksh Anveshnam PVT LTD<br>08/2021 - 02/2022<br>AI/IoT/Automation-Based Startup.<br>Achievements/Tasks:<br>•<br>Gained comprehensive knowledge of Python, Django, HTML, and CSS, focusing on web development fundamentals and best practices.<br>•<br>Successfully completed multiple hands-on assignments to apply learned concepts in real-world scenarios.<br>Skills<br>Achievements<br>Received 10+ medals & certificates for sports, cultural programs, and class performance in Faridabad, Gurgaon, Haryana.<br>Certifications<br>•<br>Six months Python Full Stack Development training at DUCAT (06/2020 - 12/2020) - Python, Django, HTML, CSS, JavaScript, hands-on projects.<br>•<br>Certificate in Core Java, Webtek Labs Pvt. Ltd Delhi (06/2019 - 07/2019)<br>•<br>Certificate in Python, Webtek Labs Pvt. Ltd Delhi (06/2019 - 07/2019)<br>•<br>Certificate in Internet of Things (IoT), NPTEL IIT Kharagpur (07/2019 - 10/2019)<br>Education<br>Bachelor of Technology - B. Tech, Computer Science and Engineering<br>Technology Education & Research Institute, Kurukshetra University, Haryana<br>07/2017 - 07/2021<br>12th Science<br>High School Shahpur Nawadah<br>06/2015 - 06/2017<br>10th<br>S N V H/S Lohiyanagar Begusarai<br>04/2014 - 05/2015<br>Languages<br>English - Full Professional Proficiency<br>Hindi - Full Professional Proficiency<br>Hobbies<br>Programming<br>Cooking<br>Traveling<br>Internet Surfing
+<h1 align="center">Hi 👋, I'm Kishlay Raj</h1>
+<h3 align="center">Backend Developer | IoT & Cloud Systems | Solar Energy Tech | AWS</h3>
 
-
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/rajkishlay786@gmail.com ) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rajkishlay786) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/kishlay-raj-409853154) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@KISHLAY RAJ) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rajkishlay786@gmail.com) 
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![Apache Ant](https://img.shields.io/badge/Apache%20Ant-A81C7D?style=for-the-badge&logo=Apache%20Ant&logoColor=white) ![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Rajkishlay1&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Rajkishlay1&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Rajkishlay1&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Rajkishlay1&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+  <a href="https://www.linkedin.com/in/kishlayraj-409853154" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:rajkishlay786@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Rajkishlay1&label=Profile%20views&color=f26522&style=for-the-badge" />
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Rajkishlay1&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 🚀 About Me
+
+- 🔭 Currently building **real-time remote monitoring systems** for solar inverters at **Watthut Electronics**
+- ⚡ 3+ years of experience building **production-grade IoT & cloud backend systems**
+- 🌐 Deployed and managing **live AWS infrastructure** for IoT data pipelines
+- 📡 Hands-on with **MQTT protocol** for real-time device communication
+- 🛠️ Passionate about **Django REST APIs, cloud deployments & IoT integrations**
+- 📍 Based in Bihar, India | Open to **remote & relocation** opportunities
+- 📫 Reach me at **rajkishlay786@gmail.com** | 📞 8271054558
+
+---
+
+### 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+### 💼 Experience Timeline
+
+| Period | Role | Company | Domain |
+|--------|------|---------|--------|
+| Jan 2025 – Present | **Software Engineer** | Watthut Electronics Pvt. Ltd. | Solar Inverter Remote Monitoring |
+| Jun 2024 – Dec 2024 | Software Developer | LongLasst Smart Appliances | BLDC Fan IoT Backend |
+| Mar 2023 – May 2024 | Software Engineer | GLOBAIoT | Energy Meter & Pump Monitoring |
+| Feb 2022 – Feb 2023 | Software Trainee | Pinglaksh Anveshnam Pvt. Ltd. | Home Automation |
+| Aug 2021 – Feb 2022 | Software Developer Intern | Pinglaksh Anveshnam Pvt. Ltd. | AI/IoT Startup |
+
+---
+
+### 🏗️ What I Build
+
+```
+📡 IoT Backend Systems     → Real-time device data via MQTT + AWS
+☀️ Solar Monitoring        → Hybrid & on-grid inverter dashboards  
+🏠 Home Automation         → Smart appliance control backends
+🌊 Industrial Monitoring   → Energy meter & water pump tracking
+🚀 Cloud Deployments       → AWS production servers with Apache + Gunicorn
+```
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=dark&bg_color=0f172a&title_color=f26522&icon_color=f26522&text_color=e2e8f0&border_color=334155" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=dark&bg_color=0f172a&title_color=f26522&text_color=e2e8f0&border_color=334155" height="165" />
+</p>
+
+---
+
+### 📁 Featured Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| 🔆 [involtics-backend](https://github.com/Rajkishlay1/involtics-backend) | Solar Hub IoT Backend — Real-time inverter & logger monitoring | Django, MQTT, AWS, REST API |
+| 🌐 [involtics-frontend](https://github.com/Rajkishlay1/involtics-frontend) | Solar Hub Frontend — Device binding & plant management UI | Angular, TypeScript |
+
+---
+
+<p align="center">
+  <i>"Building the backend that keeps solar energy systems running 24/7 ☀️"</i>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/kishlayraj-409853154">
+    <img src="https://img.shields.io/badge/Open_to_Work-00A36C?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
