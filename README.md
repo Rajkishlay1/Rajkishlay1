@@ -96,11 +96,15 @@ Kurukshetra University | *2017 – 2021*
 
 <div align="center">
 
-![Kishlay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=dark&hide_border=true)](https://github.com/Rajkishlay1)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=dark&hide_border=true&count_private=true)
+<br/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=dark&hide_border=true)
+[![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rajkishlay1&theme=github_dark)](https://github.com/Rajkishlay1)
+
+<br/>
+
+[![Repos per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rajkishlay1&theme=github_dark)](https://github.com/Rajkishlay1)&nbsp;&nbsp;[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rajkishlay1&theme=github_dark)](https://github.com/Rajkishlay1)
 
 </div>
 
