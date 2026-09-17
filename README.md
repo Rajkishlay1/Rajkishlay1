@@ -6,6 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kishlay%20Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kishlay-raj-409853154/)
 [![Email](https://img.shields.io/badge/Email-rajkishlay786%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkishlay786@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=Rajkishlay1&color=brightgreen&style=for-the-badge)](https://github.com/Rajkishlay1)
 
 </div>
 
@@ -85,10 +86,12 @@ Kurukshetra University | *2017 – 2021*
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
 
 ### IoT & Protocols
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white)
 
 ---
 
@@ -96,11 +99,7 @@ Kurukshetra University | *2017 – 2021*
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=dark&hide_border=true)](https://github.com/Rajkishlay1)
-
-<br/>
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rajkishlay1&theme=github-compact&hide_border=true&area=true)](https://github.com/Rajkishlay1)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=dark&hide_border=true&ring=orange&fire=orange&currStreakLabel=orange)](https://github.com/Rajkishlay1)
 
 </div>
 
@@ -108,11 +107,13 @@ Kurukshetra University | *2017 – 2021*
 
 ## 🏆 Achievements & Certifications
 
-- 🐍 **Python** — Certified
-- ☕ **Core Java & Advanced Java** — Certified
-- 🧠 **Critical Thinking & Self Development** — Certified
-- 🏅 Multiple awards in **Sports, Cultural & Academic** events
-- 🌐 Languages: **Hindi** (Native) | **English** (Full Professional)
+| Badge | Certification |
+|-------|--------------|
+| 🐍 | **Python** — Certified |
+| ☕ | **Core Java & Advanced Java** — Certified |
+| 🧠 | **Critical Thinking & Personal Development** — Certified |
+| 🏅 | Multiple awards in **Sports, Cultural & Academic** events |
+| 🌐 | **Hindi** (Native) \| **English** (Full Professional) |
 
 ---
 
@@ -120,11 +121,11 @@ Kurukshetra University | *2017 – 2021*
 
 <div align="center">
 
-📱 **+91 7428199923** &nbsp;|&nbsp; 📱 **+91 8271054558**
-
-📧 [rajkishlay786@gmail.com](mailto:rajkishlay786@gmail.com) &nbsp;|&nbsp; 📧 [info@involtics.com](mailto:info@involtics.com)
-
-🔗 [LinkedIn](https://www.linkedin.com/in/kishlay-raj-409853154/) &nbsp;|&nbsp; 📍 Greater Noida / Bihar, India
+| | |
+|:---:|:---:|
+| 📱 **+91 7428199923** | 📱 **+91 8271054558** |
+| 📧 [rajkishlay786@gmail.com](mailto:rajkishlay786@gmail.com) | 📧 [info@involtics.com](mailto:info@involtics.com) |
+| 🔗 [LinkedIn Profile](https://www.linkedin.com/in/kishlay-raj-409853154/) | 📍 Greater Noida / Bihar, India |
 
 </div>
 
@@ -132,8 +133,6 @@ Kurukshetra University | *2017 – 2021*
 
 <div align="center">
 
-*"Building the backbone of India's clean energy future — one datalogger at a time."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=Rajkishlay1&color=brightgreen&style=flat-square)
+*"Building the backbone of India's clean energy future — one datalogger at a time."* ☀️
 
 </div>
