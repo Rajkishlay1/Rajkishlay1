@@ -1,11 +1,11 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=F78C2A&center=true&vCenter=true&multiline=true&width=750&height=80&lines=Hi+%F0%9F%91%8B%2C+I'm+Kishlay+Raj;Lead+Backend+%26+Cloud+Engineer+%7C+IoT+%7C+Solar+Tech)](https://git.io/typing-svg)
+# Hi there, I'm **Kishlay Raj** 👋
 
-<img src="https://komarev.com/ghpvc/?username=Rajkishlay1&label=Profile+Views&color=f26522&style=for-the-badge" />
+### Lead Backend & Cloud Systems Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kishlay-raj-409853154/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkishlay786@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kishlay%20Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kishlay-raj-409853154/)
+[![Email](https://img.shields.io/badge/Email-rajkishlay786%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkishlay786@gmail.com)
 
 </div>
 
@@ -14,82 +14,81 @@
 ## 🚀 About Me
 
 - 🔭 **Lead Backend & Cloud Engineer** at **Watthut Electronics / INVOLTICS INDIA LLP**
-- ☀️ Building real-time IoT monitoring for **3,000+ solar dataloggers** across **12+ MW** capacity
+- ☀️ Building real-time IoT monitoring for **3,000+ solar dataloggers** across **12+ MW capacity**
 - ⚡ **4+ years** of production backend & IoT systems experience
-- 📡 Expert in **MQTT (Mosquitto/TLS)**, **Modbus RTU/TCP**, real-time telemetry pipelines
-- 🗄️ Scaling time-series solar data with **TimescaleDB + Redis + PostgreSQL**
-- 🌐 Managing **6+ AWS EC2 production servers** (ap-south-1) end-to-end
-- 🏗️ Built Northbound APIs conforming to **KSEBL/DISCOM** smart grid standards
-- 📍 Greater Noida / Bihar, India
+- 📡 Expert in **MQTT (Mosquitto)**, **TimescaleDB**, **Redis**, **WebSocket**, **Django REST**
+- ☁️ Deploying and managing on **AWS EC2** with auto-scaling and CI/CD pipelines
+- 🌱 Currently deepening expertise in **distributed systems** and **real-time data pipelines**
+- 📍 Based in **Chiraiya, East Champaran, Bihar** | Working in **Greater Noida, UP**
 
 ---
 
-## 💻 Tech Stack
+## 💼 Work Experience
 
-**Backend & APIs**
+### 🏢 Watthut Electronics / INVOLTICS INDIA LLP
+**Lead Backend & Cloud Systems Engineer** | *Jan 2025 – Present*
+- Architecting real-time solar IoT platform serving **3,000+ dataloggers** and **12 MW+ scale**
+- Built MQTT broker infrastructure with **Mosquitto**, handling 50,000+ messages/day
+- Designed **TimescaleDB** hypertables for time-series solar performance data
+- Implemented **multi-tenant architecture** with role-based access control
+- Cloned and customized **DEYE Solar inverter cloud platform** for Indian market operations
+- Platforms: `solarhub.involtics.com` | `dbdemo.involtics.com` | `rmsapp.involtics.com`
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+### 🏢 LongLasst Smart Appliances
+**Software Developer** | *Jun 2024 – Dec 2024* | Gurugram, Haryana
+- Developed IoT-connected smart appliance management backend
+- Built RESTful APIs using **Django REST Framework** for device telemetry
+- Integrated real-time notifications via **WebSocket** and **Redis pub/sub**
 
-**IoT & Messaging**
+### 🏢 GLOBAIoT
+**Software Engineer** | *Mar 2023 – May 2024* | Faridabad, Haryana
+- Engineered IoT data collection pipelines for industrial monitoring systems
+- Designed **PostgreSQL** schemas and optimized query performance for large datasets
+- Developed **Python** automation scripts for device provisioning and management
 
-![MQTT](https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![Modbus](https://img.shields.io/badge/Modbus_RTU/TCP-0066CC?style=for-the-badge&logoColor=white)
+### 🏢 Pinglaksh Anveshnam Pvt. Ltd.
+**Software Engineer — Backend & IoT** | *Feb 2022 – Feb 2023* | Gurugram, Haryana
+- Built backend APIs for IoT sensor data ingestion and visualization dashboards
+- Worked on **MQTT-based** device communication protocols
 
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=for-the-badge&logo=timescale&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-**Frontend**
-
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+**Software Developer Intern** | *Aug 2021 – Feb 2022* | Gurugram, Haryana
+- Contributed to backend development using **Python** and **Django**
+- Learned production deployment practices on **Linux** servers
 
 ---
 
-## 🏗️ Production Systems & Projects
+## 🎓 Education
 
-| Project | Tech Stack | Scale | Status |
-|---------|-----------|-------|--------|
-| **Involtics SolarHub Platform** | Django + TimescaleDB + MQTT + Redis + AWS | 3,000+ dataloggers, 12+ MW | 🟢 Live |
-| **Real-Time IoT Ingestion Pipeline** | MQTT/Modbus + Celery + PostgreSQL | Millions of daily data points | 🟢 Live |
-| **Multi-Tenant SaaS Backend** | Django REST + JWT + OTP + RBAC | OEM / Business / Personal roles | 🟢 Live |
-| **KSEBL/DISCOM Grid API** | Northbound REST + MQTT | State Electricity Board integration | 🟢 Live |
-| **Warranty & Device Management** | Django + PostgreSQL + QR binding | Multi-OEM solar manufacturers | 🟢 Live |
-| **BLDC Smart Fan IoT Backend** | Django + MQTT + AWS | LongLasst Smart Appliances | 🟢 Live |
+**B.Tech — Computer Science & Engineering**
+Kurukshetra University | *2017 – 2021*
 
 ---
 
-## 📈 Experience Timeline
+## 🛠️ Tech Stack
 
-| Period | Role | Company |
-|--------|------|---------|
-| **Jan 2025 – Present** | Lead Backend & Cloud Engineer | Watthut Electronics / INVOLTICS INDIA LLP |
-| **Jun 2024 – Dec 2024** | Software Developer | LongLasst Smart Appliances, Gurugram |
-| **Mar 2023 – May 2024** | Software Engineer | GLOBAIoT, Faridabad |
-| **Feb 2022 – Feb 2023** | Software Engineer (Backend & IoT) | Pinglaksh Anveshnam Pvt. Ltd., Gurugram |
-| **Aug 2021 – Feb 2022** | Software Developer Intern | Pinglaksh Anveshnam Pvt. Ltd., Gurugram |
+### Languages & Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Django REST](https://img.shields.io/badge/Django_REST-ff1709?style=flat-square&logo=django&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-🎓 **B.Tech CSE** — Kurukshetra University (2017–2021)
+### Databases & Caching
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=timescale&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white)
+
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+### IoT & Protocols
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
 
 ---
 
@@ -97,23 +96,44 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=dark&hide_border=true&count_private=true" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=dark&hide_border=true&count_private=true" height="165" />
+![Kishlay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=dark&hide_border=true&count_private=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=dark&hide_border=true)
 
 </div>
 
 ---
 
-## 🤝 Let's Connect
+## 🏆 Achievements & Certifications
+
+- 🐍 **Python** — Certified
+- ☕ **Core Java & Advanced Java** — Certified
+- 🧠 **Critical Thinking & Self Development** — Certified
+- 🏅 Multiple awards in **Sports, Cultural & Academic** events
+- 🌐 Languages: **Hindi** (Native) | **English** (Full Professional)
+
+---
+
+## 📬 Contact Me
 
 <div align="center">
 
-**Open to Backend / IoT / Cloud / Real-Time Systems roles**
+📱 **+91 7428199923** &nbsp;|&nbsp; 📱 **+91 8271054558**
 
-📧 [rajkishlay786@gmail.com](mailto:rajkishlay786@gmail.com) &nbsp;|&nbsp;
-📧 [info@involtics.com](mailto:info@involtics.com) &nbsp;|&nbsp;
-📱 +91 7428199923
+📧 [rajkishlay786@gmail.com](mailto:rajkishlay786@gmail.com) &nbsp;|&nbsp; 📧 [info@involtics.com](mailto:info@involtics.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kishlay-raj-409853154/)
+🔗 [LinkedIn](https://www.linkedin.com/in/kishlay-raj-409853154/) &nbsp;|&nbsp; 📍 Greater Noida / Bihar, India
+
+</div>
+
+---
+
+<div align="center">
+
+*"Building the backbone of India's clean energy future — one datalogger at a time."*
+
+![Profile Views](https://komarev.com/ghpvc/?username=Rajkishlay1&color=brightgreen&style=flat-square)
 
 </div>
