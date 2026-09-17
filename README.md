@@ -92,7 +92,7 @@ Kurukshetra University | *2017 – 2021*
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
@@ -100,11 +100,7 @@ Kurukshetra University | *2017 – 2021*
 
 <br/>
 
-[![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rajkishlay1&theme=github_dark)](https://github.com/Rajkishlay1)
-
-<br/>
-
-[![Repos per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rajkishlay1&theme=github_dark)](https://github.com/Rajkishlay1)&nbsp;&nbsp;[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rajkishlay1&theme=github_dark)](https://github.com/Rajkishlay1)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rajkishlay1&theme=github-compact&hide_border=true&area=true)](https://github.com/Rajkishlay1)
 
 </div>
 
