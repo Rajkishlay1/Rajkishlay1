@@ -1,138 +1,189 @@
 <div align="center">
 
-# Hi there, I'm **Kishlay Raj** 👋
+<!-- 🍥 HOKAGE HERO BANNER 🍥 -->
+<a href="https://github.com/Rajkishlay1">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,9,20&height=220&section=header&text=Kishlay%20Raj%20%E2%9A%A1%20Hokage%20AI%20Architect&fontSize=38&fontAlignY=38&desc=Lead%20AI%20Architect%20%7C%20IoT%20Telemetry%20%7C%20Distributed%20Cloud%20Systems&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Kishlay Raj Header" width="100%"/>
+</a>
 
-### Lead Backend & Cloud Systems Engineer
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kishlay%20Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kishlay-raj-409853154/)
-[![Email](https://img.shields.io/badge/Email-rajkishlay786%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajkishlay786@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Rajkishlay1&color=brightgreen&style=for-the-badge)](https://github.com/Rajkishlay1)
+<!-- 🍥 TEAM 7 CHIBI DANCE ANIMATION 🍥 -->
+<img src="https://media.giphy.com/media/2y98KScHKeaQM/giphy.gif" alt="Team 7 Naruto Sasuke Sakura Chibi Dance" width="280"/>
+
+<br/><br/>
+
+<!-- 🍥 TYPING TITLE 🍥 -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF7A1A&center=true&vCenter=true&random=false&width=650&lines=Dattebayo!+Welcome+to+my+Hidden+Leaf+Terminal+%F0%9F%8D%B5;Lead+AI+Architect+%40+Involtics+India+%2F+Watthut;Architecting+24%2F7+IoT+Telemetry+%26+SolarOS;Monitoring+3%2C000%2B+Loggers+%26+12%2B+MW+Capacity;Mastering+Multi-Agent+AI+Engines+%26+Cloud+Systems" alt="Typing SVG" />
+</a>
+
+<br/><br/>
+
+---
+
+### 🍥 MY NINJA WAY (我が忍道 - Nindō)
+
+> *"I never go back on my word, and my server never drops a packet! That's my Ninja Way."* ⚡  
+> — **Kishlay Raj (Lead AI Architect & IoT Systems Lead)**
+
+Building mission-critical, zero-downtime distributed platforms where **hardware meets intelligence**. Operating real-time telemetry pipelines across **3,000+ solar dataloggers and 12+ MW capacity**, down to raw Modbus sensor telemetries and self-healing multi-agent AI ecosystems like **CHAMP AI OS**.
+
+---
 
 </div>
 
----
+<br/>
 
-## 🚀 About Me
-
-- 🔭 **Lead Backend & Cloud Engineer** at **Watthut Electronics / INVOLTICS INDIA LLP**
-- ☀️ Building real-time IoT monitoring for **3,000+ solar dataloggers** across **12+ MW capacity**
-- ⚡ **4+ years** of production backend & IoT systems experience
-- 📡 Expert in **MQTT (Mosquitto)**, **TimescaleDB**, **Redis**, **WebSocket**, **Django REST**
-- ☁️ Deploying and managing on **AWS EC2** with auto-scaling and CI/CD pipelines
-- 🌱 Currently deepening expertise in **distributed systems** and **real-time data pipelines**
-- 📍 Based in **Chiraiya, East Champaran, Bihar** | Working in **Greater Noida, UP**
-
----
-
-## 💼 Work Experience
-
-### 🏢 Watthut Electronics / INVOLTICS INDIA LLP
-**Lead Backend & Cloud Systems Engineer** | *Jan 2025 – Present*
-- Architecting real-time solar IoT platform serving **3,000+ dataloggers** and **12 MW+ scale**
-- Built MQTT broker infrastructure with **Mosquitto**, handling 50,000+ messages/day
-- Designed **TimescaleDB** hypertables for time-series solar performance data
-- Implemented **multi-tenant architecture** with role-based access control
-- Cloned and customized **DEYE Solar inverter cloud platform** for Indian market operations
-- Platforms: `solarhub.involtics.com` | `dbdemo.involtics.com` | `rmsapp.involtics.com`
-
-### 🏢 LongLasst Smart Appliances
-**Software Developer** | *Jun 2024 – Dec 2024* | Gurugram, Haryana
-- Developed IoT-connected smart appliance management backend
-- Built RESTful APIs using **Django REST Framework** for device telemetry
-- Integrated real-time notifications via **WebSocket** and **Redis pub/sub**
-
-### 🏢 GLOBAIoT
-**Software Engineer** | *Mar 2023 – May 2024* | Faridabad, Haryana
-- Engineered IoT data collection pipelines for industrial monitoring systems
-- Designed **PostgreSQL** schemas and optimized query performance for large datasets
-- Developed **Python** automation scripts for device provisioning and management
-
-### 🏢 Pinglaksh Anveshnam Pvt. Ltd.
-**Software Engineer — Backend & IoT** | *Feb 2022 – Feb 2023* | Gurugram, Haryana
-- Built backend APIs for IoT sensor data ingestion and visualization dashboards
-- Worked on **MQTT-based** device communication protocols
-
-**Software Developer Intern** | *Aug 2021 – Feb 2022* | Gurugram, Haryana
-- Contributed to backend development using **Python** and **Django**
-- Learned production deployment practices on **Linux** servers
-
----
-
-## 🎓 Education
-
-**B.Tech — Computer Science & Engineering**
-Kurukshetra University | *2017 – 2021*
-
----
-
-## 🛠️ Tech Stack
-
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Django REST](https://img.shields.io/badge/Django_REST-ff1709?style=flat-square&logo=django&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-### Databases & Caching
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=timescale&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white)
-
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
-
-### IoT & Protocols
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white)
-
----
-
-## 📊 GitHub Activity
+## 🪪 Leaf Village Shinobi Registration Card
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=dark&hide_border=true&ring=orange&fire=orange&currStreakLabel=orange)](https://github.com/Rajkishlay1)
+```yaml
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  🍃 HIDDEN LEAF VILLAGE SHINOBI IDENTIFICATION (KONOHAGAKURE ID)            ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║  • Ninja Name      : Kishlay Raj (राज किश्लय)                                 ║
+║  • Ninja Rank      : S-Rank Elite Jōnin / Chief AI Architect                 ║
+║  • Affiliation     : Involtics India Core Engineering Division               ║
+║  • Ninja Specialty : Autonomous Agentic AI, Zero-Downtime Telemetry (24/7)   ║
+║  • Chakra Natures  : ⚡ Lightning (IoT/Modbus) | 🔥 Fire (High-TPS Cloud)    ║
+║                      🌪️ Wind (Generative AI & LLM Inference)                 ║
+║  • Primary Weapon  : Flying Thunder God (Zero-Latency API Pipelines)         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
----
+<br/>
 
-## 🏆 Achievements & Certifications
-
-| Badge | Certification |
-|-------|--------------|
-| 🐍 | **Python** — Certified |
-| ☕ | **Core Java & Advanced Java** — Certified |
-| 🧠 | **Critical Thinking & Personal Development** — Certified |
-| 🏅 | Multiple awards in **Sports, Cultural & Academic** events |
-| 🌐 | **Hindi** (Native) \| **English** (Full Professional) |
-
----
-
-## 📬 Contact Me
+## 📜 Jutsu Arsenal (Tech Stack & Skills)
 
 <div align="center">
 
-| | |
-|:---:|:---:|
-| 📱 **+91 7428199923** | 📱 **+91 8271054558** |
-| 📧 [rajkishlay786@gmail.com](mailto:rajkishlay786@gmail.com) | 📧 [info@involtics.com](mailto:info@involtics.com) |
-| 🔗 [LinkedIn Profile](https://www.linkedin.com/in/kishlay-raj-409853154/) | 📍 Greater Noida / Bihar, India |
+| Jutsu Category | Arsenal / Technologies Mastered |
+| :--- | :--- |
+| **🧠 Sage Mode AI & Agents** | `Python` `Gemini 2.5/Flash` `Claude 3.7` `Groq (Llama-3.3-70B)` `LangChain` `MCP Protocol` `PyTorch` |
+| **⚡ Lightning Release (IoT & Hardware)** | `Modbus RTU/TCP` `MQTT (Mosquitto)` `Embedded C` `Solar Inverters` `Smart Meters` `RS485` |
+| **☁️ Cloud & High-Throughput Backend** | `Django REST` `FastAPI` `Celery` `TimescaleDB` `PostgreSQL` `Redis` `AWS (S3, SQS, EC2)` `Docker` `Floci` |
+| **🛡️ Barrier Ninjutsu (DevOps & Security)**| `Linux (Ubuntu S2)` `Nginx` `Gunicorn` `GitLab CI/CD` `GitHub Actions` `Prometheus` `Grafana` |
+| **🎨 Genjutsu (Frontend & Realtime UI)** | `HTML5 / CSS3` `JavaScript ES6+` `WebSockets` `TailwindCSS` `Chart.js` |
+
+<br/>
+
+<!-- TECH ICONS BADGES -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,c,django,fastapi,postgres,redis,aws,docker,linux,git,github,gitlab&perline=6" alt="Tech Stack Icons" />
+</p>
 
 </div>
 
----
+<br/>
+
+## 🍥 S-Rank Missions (Featured Projects)
+
+<table>
+  <tr>
+    <th width="30%">Mission / Project</th>
+    <th width="50%">Shinobi Mission Brief</th>
+    <th width="20%" align="center">Chakra Elements</th>
+  </tr>
+  <tr>
+    <td><b>☀️ Involtics SolarHub & Telemetry S2</b></td>
+    <td>High-throughput, 24/7 continuous solar telemetry ingestion pipeline supporting 3,000+ hybrid & on-grid loggers. Zero packet drops, real-time Modbus parsing & TimescaleDB timeseries storage.</td>
+    <td align="center"><code>Python</code> <code>MQTT</code> <code>TimescaleDB</code></td>
+  </tr>
+  <tr>
+    <td><b>🤖 CHAMP AI OS (Kishlay AI OS)</b></td>
+    <td>Autonomous executive AI operating system equipped with MCP voice calling agent, autonomous job hunting agent, OWASP pentesting auditor, and AI Avatar video production studio.</td>
+    <td align="center"><code>FastAPI</code> <code>MCP</code> <code>Llama-70B</code></td>
+  </tr>
+  <tr>
+    <td><b>☁️ Floci Local AWS Sandbox</b></td>
+    <td>Zero-cost local AWS cloud emulator for developer testing. Replicates S3 buckets, SQS queues, and Redis for solar telemetry simulations without incurring cloud bills.</td>
+    <td align="center"><code>Docker</code> <code>boto3</code> <code>AWS SQS/S3</code></td>
+  </tr>
+  <tr>
+    <td><b>📜 Automated Warranty Certification</b></td>
+    <td>Unified legal warranty engine binding Zoho Books invoices, inverter serial hardware authorities, and SolarHub geo-coordinates (Lat/Long) into dynamic QR-verified certificates.</td>
+    <td align="center"><code>OAuth 2.0</code> <code>Zoho API</code> <code>PDF Gen</code></td>
+  </tr>
+  <tr>
+    <td><b>🔌 Device Doctor & Pre-Bind Tool</b></td>
+    <td>Internal hardware diagnostic suite for Modbus packet inspection, CRC error validation, inverter auto-reconciliation, and atomic 3-way binding.</td>
+    <td align="center"><code>Modbus</code> <code>Python</code> <code>PostgreSQL</code></td>
+  </tr>
+</table>
+
+<br/>
+
+## 📊 Live Shinobi Telemetry (GitHub Stats)
 
 <div align="center">
 
-*"Building the backbone of India's clean energy future — one datalogger at a time."* ☀️
+<img src="https://media.giphy.com/media/tEQ8aAoh60dqw/giphy.gif" alt="Naruto Running with Rasengan" width="160"/>
+
+<br/><br/>
+
+<!-- GITHUB STATS & STREAK -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=tokyonight&hide_border=true&title_color=FF7A1A&icon_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="Raj's GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=tokyonight&hide_border=true&ring=FF7A1A&fire=FF7A1A&currStreakNum=00D4FF&sideNums=E2E8F0&dates=64748B&background=0A0E1A" alt="Raj's GitHub Streak" width="48%" />
+</p>
+
+<!-- TOP LANGUAGES -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=tokyonight&hide_border=true&title_color=FF7A1A&text_color=E2E8F0&bg_color=0A0E1A" alt="Top Languages" width="48%" />
+</p>
+
+</div>
+
+<br/>
+
+## 🌃 Konoha Contribution Village
+
+<div align="center">
+
+*Every commit raises another tower in the Hidden Leaf Village — rebuilt automatically every 24 hours.* ⛩️
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajkishlay1&theme=tokyo-night&hide_border=true&bg_color=0A0E1A&color=FF7A1A&line=00D4FF&point=FFFFFF&area=true" alt="Contribution Graph Activity" width="100%" />
+
+</div>
+
+<br/>
+
+## 💌 Summoning Jutsu (Let's Connect)
+
+<div align="center">
+
+<p align="center">
+  <a href="https://github.com/Rajkishlay1">
+    <img src="https://img.shields.io/badge/GitHub-Rajkishlay1-FF7A1A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/kishlay-raj-409853154/">
+    <img src="https://img.shields.io/badge/LinkedIn-Kishlay_Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:rajkishlay786@gmail.com">
+    <img src="https://img.shields.io/badge/Email-rajkishlay786%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  &nbsp;
+  <a href="https://t.me/rajkishlay">
+    <img src="https://img.shields.io/badge/Telegram-Connect-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+</p>
+
+<br/>
+
+<!-- VISITOR COUNTER -->
+<img src="https://komarev.com/ghpvc/?username=Rajkishlay1&color=ff7a1a&style=for-the-badge&label=SHINOBI%20VISITORS%20COUNT" alt="Visitor Counter" />
+
+<br/><br/>
+
+<img src="https://media.giphy.com/media/sULKEgDXZym9q/giphy.gif" alt="Chibi Naruto thumbs up" width="90"/>
+
+<br/>
+
+**"Dattebayo! Keep coding, keep scaling, never stop learning."** 🍥🍃
 
 </div>
