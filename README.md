@@ -1,11 +1,9 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<a href="https://github.com/Rajkishlay1">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,20,24,30&height=220&section=header&text=Kishlay%20Raj&fontSize=42&fontAlignY=38&desc=Lead%20Backend%20%26%20Distributed%20Systems%20Engineer%20%7C%20AI%20Agent%20Architect&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Kishlay Raj Header Banner" width="100%"/>
-</a>
+<!-- LOCAL REPO HEADER BANNER (100% RELIABLE, ZERO PROXY BREAKS) -->
+<img src="./assets/banner.svg" alt="Kishlay Raj Header Banner" width="100%"/>
 
-<br/>
+<br/><br/>
 
 <!-- DYNAMIC TYPING SVG -->
 <a href="https://git.io/typing-svg">
@@ -14,7 +12,7 @@
 
 <br/><br/>
 
-<!-- CONNECT BADGES -->
+<!-- SOCIAL & CONTACT BADGES -->
 <p align="center">
   <a href="https://www.linkedin.com/in/kishlay-raj-409853154/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Kishlay_Raj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -125,25 +123,20 @@ High-impact **Lead Backend & Distributed Systems Engineer** and **AI Agent Archi
 
 ---
 
-## 📊 Live GitHub Activity & Engineering Telemetry
+## 📊 Engineering Telemetry & Activity
 
 <div align="center">
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=tokyonight&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=00D4FF&sideNums=E2E8F0&dates=64748B&background=0A0E1A" alt="GitHub Streak" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="Top Languages" width="48%" />
 </p>
 
 <br/>
-
-<!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajkishlay1&theme=tokyo-night&hide_border=true&bg_color=0A0E1A&color=00D4FF&line=00D4FF&point=FFFFFF&area=true" alt="Contribution Graph" width="100%" />
-
-<br/><br/>
 
 <!-- PROFILE VIEWS COUNTER -->
 <img src="https://komarev.com/ghpvc/?username=Rajkishlay1&color=00d4ff&style=for-the-badge&label=PROFILE%20VIEWS" alt="Profile Views" />
