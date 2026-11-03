@@ -1,93 +1,150 @@
-# rajkishlay786
+<div align="center">
 
+<!-- LOCAL REPO HEADER BANNER (100% RELIABLE, ZERO PROXY BREAKS) -->
+<img src="./assets/banner.svg" alt="Kishlay Raj Header Banner" width="100%"/>
 
+<br/><br/>
 
-## Getting started
+<!-- DYNAMIC TYPING SVG -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=750&lines=Lead+Backend+%26+Distributed+Systems+Engineer;AI+Agent+Architect+%7C+LangChain+%2B+Anthropic+MCP+Specialist;Managing+3%2C000%2B+Live+Solar+Dataloggers+across+12%2B+MW+Capacity;Handling+100K%2B+Packets%2FDay+%7C+1%2C700+msgs%2Fsec+Peak+%7C+99.9%25+Uptime;High-Throughput+IoT+Telemetry+%7C+TimescaleDB+%7C+Mosquitto+mTLS" alt="Typing SVG" />
+</a>
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+<br/><br/>
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+<!-- SOCIAL & CONTACT BADGES -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/kishlay-raj-409853154/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Kishlay_Raj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:rajkishlay786@gmail.com">
+    <img src="https://img.shields.io/badge/Email-rajkishlay786%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/Rajkishlay1" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Rajkishlay1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://gitlab.com/rajkishlay786" target="_blank">
+    <img src="https://img.shields.io/badge/GitLab-rajkishlay786-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
+  </a>
+  &nbsp;
+  <a href="tel:+918271054558">
+    <img src="https://img.shields.io/badge/Mobile-%2B91_8271054558-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
+  </a>
+</p>
 
-## Add your files
+</div>
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+---
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/rajkishlay786/rajkishlay786.git
-git branch -M main
-git push -uf origin main
-```
+## 👨‍💻 Executive Summary
 
-## Integrate with your tools
+High-impact **Lead Backend & Distributed Systems Engineer** and **AI Agent Architect** with **4+ years of production experience** architecting mission-critical IoT telemetry backends, high-concurrency event-driven architectures, and autonomous multi-agent AI ecosystems.
 
-* [Set up project integrations](https://gitlab.com/rajkishlay786/rajkishlay786/-/settings/integrations)
+- ☀️ **Current Scale:** Spearheading end-to-end backend operations for **3,000+ live solar dataloggers** across **12+ MW operational generation capacity** with **99.9% production uptime**.
+- ⚡ **High Throughput:** Operating an enterprise **Mosquitto MQTT broker cluster** handling **100,000+ daily packets** with sustained peak throughput exceeding **1,700 messages/second** with zero dropped packets.
+- 🗄️ **Time-Series Optimization:** Designed partitioned **TimescaleDB hypertables** with compound indexing and automated chunk retention, achieving a **95% query latency reduction** across **100M+ historical telemetry records**.
+- 🤖 **Agentic AI Leadership:** Pioneer in production Agentic AI systems deploying **CHAMP OS** using **LangChain, LangGraph**, and **Anthropic Model Context Protocol (MCP)** for automated telemetry anomaly triage and self-healing cloud pipelines.
+- 📍 **Location:** Greater Noida, Uttar Pradesh, India
 
-## Collaborate with your team
+---
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+## 🛠️ Core Technical Competencies
 
-## Test and Deploy
+<div align="center">
 
-Use the built-in continuous integration in GitLab.
+| Domain | Technologies, Frameworks & Tooling |
+| :--- | :--- |
+| **Backend & Core Languages** | `Python (Advanced)` `Django` `Django REST Framework` `FastAPI` `Java` `JavaScript` `Bash Scripting` |
+| **AI Agents & LLM Systems** | `Anthropic Model Context Protocol (MCP)` `LangChain` `LangGraph` `Autonomous Agent Loops` `Multi-Agent Tool Calling` `RAG Pipelines` `Llama 3.3` |
+| **Distributed Systems & IoT** | `MQTT (Mosquitto TLS/mTLS)` `Modbus RTU/TCP` `WebSockets` `Redis Pub/Sub` `Celery Task Queues` `Event-Driven Systems` |
+| **Databases & Time-Series** | `TimescaleDB (Hypertables & Chunking)` `PostgreSQL` `PgBouncer` `Redis Caching` `MySQL` `Query Optimization` |
+| **Cloud & Infrastructure** | `AWS (EC2, VPC, EBS, Security Groups, IAM)` `Linux Administration (Ubuntu)` `Nginx Reverse Proxy` `Gunicorn` `SSL/TLS Automation` `Docker` |
+| **Architecture & DevOps** | `High-Throughput Ingestion Pipelines` `Multi-Tenant RBAC` `Microservices` `CI/CD` `GitOps` `Zero-Downtime Deployment` |
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+<br/>
 
-***
+<!-- SKILL ICONS -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,aws,docker,linux,git,github,gitlab,bash,nginx&perline=7" alt="Tech Stack Badges" />
+</p>
 
-# Editing this README
+</div>
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+---
 
-## Suggestions for a good README
+## 💼 Professional Experience
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+### 🚀 **Lead Backend & Cloud Systems Engineer** | *Watthut Electronics / Involtics India LLP*
+*Jan 2025 – Present | Greater Noida, India*
+- Architected and operate centralized clean-tech IoT telemetry platform managing **3,000+ commercial & residential dataloggers** across **12+ MW operational solar generation** with **99.9% production uptime**.
+- Engineered autonomous multi-agent AI operating systems (**CHAMP OS**) utilizing **LangChain** and **Anthropic Model Context Protocol (MCP)** for automated telemetry anomaly triage, device health verification, and high-velocity cloud orchestration.
+- Engineered enterprise **Mosquitto MQTT broker cluster** featuring mutual TLS authentication (mTLS), handling **100,000+ daily packets** with sustained peak throughput exceeding **1,700 messages/second** with zero dropped packets.
+- Designed partitioned **TimescaleDB hypertables** with compound indexing and automated chunk retention, achieving a **95% reduction** in dashboard query response time across **100M+ historical telemetry rows**.
+- Spearheaded reverse-engineering and full localization of the global **Deye Solar cloud platform** to comply with India data sovereignty standards, successfully powering 3 high-availability production domains.
+- Built distributed **Celery and Redis** worker task pipelines for real-time solar inverter fault alerts, energy rollups, and automated customer diagnostics.
+- Automated multi-server deployment workflows across **7 AWS production EC2 servers** using Nginx, Gunicorn, SSL auto-rotation, and automated disaster-recovery backup schedules.
 
-## Name
-Choose a self-explaining name for your project.
+---
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+### ⚙️ **Software Developer (Backend & IoT)** | *LongLasst Smart Appliances*
+*Jun 2024 – Dec 2024 | Gurugram, India*
+- Developed high-performance RESTful APIs using **Django REST Framework** for real-time sensor ingestion across thousands of smart consumer appliances.
+- Integrated **Redis Pub/Sub** and **WebSocket** bidirectional streaming, providing sub-100ms live appliance diagnostics to web and mobile client dashboards.
+- Designed normalized **PostgreSQL** schemas and optimized queries for appliance telemetry logging, automated warranty validation, and multi-tenant user access.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+---
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+### 🌐 **Software Engineer** | *GLOBAIoT*
+*Mar 2023 – May 2024 | Faridabad, India*
+- Engineered resilient industrial IoT data ingestion pipelines with automated failover and retry mechanics for multi-sensor environmental monitoring arrays.
+- Tuned **PostgreSQL** analytical queries and indexing strategies, decreasing query latency by **40%** over multi-million row historical sensor databases.
+- Created automated **Python CLI toolsets** for remote device provisioning, edge heartbeat monitoring, and automated hardware diagnostics.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+---
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### 📡 **Software Engineer (Backend & IoT)** | *Pinglaksh Anveshnam Pvt. Ltd.*
+*Feb 2022 – Feb 2023 | Gurugram, India*
+- Designed and implemented REST APIs using **Django** to parse binary sensor telemetry from edge dataloggers and feed real-time analytics monitoring dashboards.
+- Configured **MQTT brokers** and **Modbus RTU/TCP register maps** to interface hardware controllers with cloud data stores over cellular connectivity.
+- Promoted from Software Developer Intern (Aug 2021 – Feb 2022) after leading development of backend ingestion modules and Linux server configurations.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+---
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## 🎓 Education & 📜 Certifications
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+- **Bachelor of Technology (B.Tech) in Computer Science & Engineering** | *Kurukshetra University* (2017 – 2021)
+- 🏅 **Microsoft Applied Skills:** AI Agent Development *(Credly Verified Badge)*
+- 🏅 **Anthropic Model Context Protocol (MCP) & LangChain Architecture**
+- 🏅 **Python Programming & Distributed Systems Specialization**
+- 🏅 **Core & Advanced Java Enterprise Systems**
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+---
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+## 📊 Engineering Telemetry & Activity
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+<div align="center">
 
-## License
-For open source projects, say how it is licensed.
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=tokyonight&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=00D4FF&sideNums=E2E8F0&dates=64748B&background=0A0E1A" alt="GitHub Streak" width="48%" />
+</p>
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="Top Languages" width="48%" />
+</p>
+
+<br/>
+
+<!-- PROFILE VIEWS COUNTER -->
+<img src="https://komarev.com/ghpvc/?username=Rajkishlay1&color=00d4ff&style=for-the-badge&label=PROFILE%20VIEWS" alt="Profile Views" />
+
+<br/><br/>
+
+<p align="center">
+  <i>"Architecture is not just about what works; it is about building systems that never fail under production scale."</i>
+</p>
+
+</div>
