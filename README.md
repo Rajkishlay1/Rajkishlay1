@@ -1,189 +1,157 @@
 <div align="center">
 
-<!-- 🍥 HOKAGE HERO BANNER 🍥 -->
+<!-- HEADER BANNER -->
 <a href="https://github.com/Rajkishlay1">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,9,20&height=220&section=header&text=Kishlay%20Raj%20%E2%9A%A1%20Hokage%20AI%20Architect&fontSize=38&fontAlignY=38&desc=Lead%20AI%20Architect%20%7C%20IoT%20Telemetry%20%7C%20Distributed%20Cloud%20Systems&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Kishlay Raj Header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,20,24,30&height=220&section=header&text=Kishlay%20Raj&fontSize=42&fontAlignY=38&desc=Lead%20Backend%20%26%20Distributed%20Systems%20Engineer%20%7C%20AI%20Agent%20Architect&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Kishlay Raj Header Banner" width="100%"/>
 </a>
 
 <br/>
 
-<!-- 🍥 TEAM 7 CHIBI DANCE ANIMATION 🍥 -->
-<img src="https://media.giphy.com/media/2y98KScHKeaQM/giphy.gif" alt="Team 7 Naruto Sasuke Sakura Chibi Dance" width="280"/>
-
-<br/><br/>
-
-<!-- 🍥 TYPING TITLE 🍥 -->
+<!-- DYNAMIC TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF7A1A&center=true&vCenter=true&random=false&width=650&lines=Dattebayo!+Welcome+to+my+Hidden+Leaf+Terminal+%F0%9F%8D%B5;Lead+AI+Architect+%40+Involtics+India+%2F+Watthut;Architecting+24%2F7+IoT+Telemetry+%26+SolarOS;Monitoring+3%2C000%2B+Loggers+%26+12%2B+MW+Capacity;Mastering+Multi-Agent+AI+Engines+%26+Cloud+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=750&lines=Lead+Backend+%26+Distributed+Systems+Engineer;AI+Agent+Architect+%7C+LangChain+%2B+Anthropic+MCP+Specialist;Managing+3%2C000%2B+Live+Solar+Dataloggers+across+12%2B+MW+Capacity;Handling+100K%2B+Packets%2FDay+%7C+1%2C700+msgs%2Fsec+Peak+%7C+99.9%25+Uptime;High-Throughput+IoT+Telemetry+%7C+TimescaleDB+%7C+Mosquitto+mTLS" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
----
-
-### 🍥 MY NINJA WAY (我が忍道 - Nindō)
-
-> *"I never go back on my word, and my server never drops a packet! That's my Ninja Way."* ⚡  
-> — **Kishlay Raj (Lead AI Architect & IoT Systems Lead)**
-
-Building mission-critical, zero-downtime distributed platforms where **hardware meets intelligence**. Operating real-time telemetry pipelines across **3,000+ solar dataloggers and 12+ MW capacity**, down to raw Modbus sensor telemetries and self-healing multi-agent AI ecosystems like **CHAMP AI OS**.
-
----
-
-</div>
-
-<br/>
-
-## 🪪 Leaf Village Shinobi Registration Card
-
-<div align="center">
-
-```yaml
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  🍃 HIDDEN LEAF VILLAGE SHINOBI IDENTIFICATION (KONOHAGAKURE ID)            ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║  • Ninja Name      : Kishlay Raj (राज किश्लय)                                 ║
-║  • Ninja Rank      : S-Rank Elite Jōnin / Chief AI Architect                 ║
-║  • Affiliation     : Involtics India Core Engineering Division               ║
-║  • Ninja Specialty : Autonomous Agentic AI, Zero-Downtime Telemetry (24/7)   ║
-║  • Chakra Natures  : ⚡ Lightning (IoT/Modbus) | 🔥 Fire (High-TPS Cloud)    ║
-║                      🌪️ Wind (Generative AI & LLM Inference)                 ║
-║  • Primary Weapon  : Flying Thunder God (Zero-Latency API Pipelines)         ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-<br/>
-
-## 📜 Jutsu Arsenal (Tech Stack & Skills)
-
-<div align="center">
-
-| Jutsu Category | Arsenal / Technologies Mastered |
-| :--- | :--- |
-| **🧠 Sage Mode AI & Agents** | `Python` `Gemini 2.5/Flash` `Claude 3.7` `Groq (Llama-3.3-70B)` `LangChain` `MCP Protocol` `PyTorch` |
-| **⚡ Lightning Release (IoT & Hardware)** | `Modbus RTU/TCP` `MQTT (Mosquitto)` `Embedded C` `Solar Inverters` `Smart Meters` `RS485` |
-| **☁️ Cloud & High-Throughput Backend** | `Django REST` `FastAPI` `Celery` `TimescaleDB` `PostgreSQL` `Redis` `AWS (S3, SQS, EC2)` `Docker` `Floci` |
-| **🛡️ Barrier Ninjutsu (DevOps & Security)**| `Linux (Ubuntu S2)` `Nginx` `Gunicorn` `GitLab CI/CD` `GitHub Actions` `Prometheus` `Grafana` |
-| **🎨 Genjutsu (Frontend & Realtime UI)** | `HTML5 / CSS3` `JavaScript ES6+` `WebSockets` `TailwindCSS` `Chart.js` |
-
-<br/>
-
-<!-- TECH ICONS BADGES -->
+<!-- CONNECT BADGES -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,django,fastapi,postgres,redis,aws,docker,linux,git,github,gitlab&perline=6" alt="Tech Stack Icons" />
-</p>
-
-</div>
-
-<br/>
-
-## 🍥 S-Rank Missions (Featured Projects)
-
-<table>
-  <tr>
-    <th width="30%">Mission / Project</th>
-    <th width="50%">Shinobi Mission Brief</th>
-    <th width="20%" align="center">Chakra Elements</th>
-  </tr>
-  <tr>
-    <td><b>☀️ Involtics SolarHub & Telemetry S2</b></td>
-    <td>High-throughput, 24/7 continuous solar telemetry ingestion pipeline supporting 3,000+ hybrid & on-grid loggers. Zero packet drops, real-time Modbus parsing & TimescaleDB timeseries storage.</td>
-    <td align="center"><code>Python</code> <code>MQTT</code> <code>TimescaleDB</code></td>
-  </tr>
-  <tr>
-    <td><b>🤖 CHAMP AI OS (Kishlay AI OS)</b></td>
-    <td>Autonomous executive AI operating system equipped with MCP voice calling agent, autonomous job hunting agent, OWASP pentesting auditor, and AI Avatar video production studio.</td>
-    <td align="center"><code>FastAPI</code> <code>MCP</code> <code>Llama-70B</code></td>
-  </tr>
-  <tr>
-    <td><b>☁️ Floci Local AWS Sandbox</b></td>
-    <td>Zero-cost local AWS cloud emulator for developer testing. Replicates S3 buckets, SQS queues, and Redis for solar telemetry simulations without incurring cloud bills.</td>
-    <td align="center"><code>Docker</code> <code>boto3</code> <code>AWS SQS/S3</code></td>
-  </tr>
-  <tr>
-    <td><b>📜 Automated Warranty Certification</b></td>
-    <td>Unified legal warranty engine binding Zoho Books invoices, inverter serial hardware authorities, and SolarHub geo-coordinates (Lat/Long) into dynamic QR-verified certificates.</td>
-    <td align="center"><code>OAuth 2.0</code> <code>Zoho API</code> <code>PDF Gen</code></td>
-  </tr>
-  <tr>
-    <td><b>🔌 Device Doctor & Pre-Bind Tool</b></td>
-    <td>Internal hardware diagnostic suite for Modbus packet inspection, CRC error validation, inverter auto-reconciliation, and atomic 3-way binding.</td>
-    <td align="center"><code>Modbus</code> <code>Python</code> <code>PostgreSQL</code></td>
-  </tr>
-</table>
-
-<br/>
-
-## 📊 Live Shinobi Telemetry (GitHub Stats)
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/tEQ8aAoh60dqw/giphy.gif" alt="Naruto Running with Rasengan" width="160"/>
-
-<br/><br/>
-
-<!-- GITHUB STATS & STREAK -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=tokyonight&hide_border=true&title_color=FF7A1A&icon_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="Raj's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=tokyonight&hide_border=true&ring=FF7A1A&fire=FF7A1A&currStreakNum=00D4FF&sideNums=E2E8F0&dates=64748B&background=0A0E1A" alt="Raj's GitHub Streak" width="48%" />
-</p>
-
-<!-- TOP LANGUAGES -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=tokyonight&hide_border=true&title_color=FF7A1A&text_color=E2E8F0&bg_color=0A0E1A" alt="Top Languages" width="48%" />
-</p>
-
-</div>
-
-<br/>
-
-## 🌃 Konoha Contribution Village
-
-<div align="center">
-
-*Every commit raises another tower in the Hidden Leaf Village — rebuilt automatically every 24 hours.* ⛩️
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajkishlay1&theme=tokyo-night&hide_border=true&bg_color=0A0E1A&color=FF7A1A&line=00D4FF&point=FFFFFF&area=true" alt="Contribution Graph Activity" width="100%" />
-
-</div>
-
-<br/>
-
-## 💌 Summoning Jutsu (Let's Connect)
-
-<div align="center">
-
-<p align="center">
-  <a href="https://github.com/Rajkishlay1">
-    <img src="https://img.shields.io/badge/GitHub-Rajkishlay1-FF7A1A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/kishlay-raj-409853154/">
-    <img src="https://img.shields.io/badge/LinkedIn-Kishlay_Raj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://www.linkedin.com/in/kishlay-raj-409853154/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Kishlay_Raj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;
   <a href="mailto:rajkishlay786@gmail.com">
     <img src="https://img.shields.io/badge/Email-rajkishlay786%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   &nbsp;
-  <a href="https://t.me/rajkishlay">
-    <img src="https://img.shields.io/badge/Telegram-Connect-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  <a href="https://github.com/Rajkishlay1" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Rajkishlay1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  &nbsp;
+  <a href="https://gitlab.com/rajkishlay786" target="_blank">
+    <img src="https://img.shields.io/badge/GitLab-rajkishlay786-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
+  </a>
+  &nbsp;
+  <a href="tel:+918271054558">
+    <img src="https://img.shields.io/badge/Mobile-%2B91_8271054558-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
+  </a>
+</p>
+
+</div>
+
+---
+
+## 👨‍💻 Executive Summary
+
+High-impact **Lead Backend & Distributed Systems Engineer** and **AI Agent Architect** with **4+ years of production experience** architecting mission-critical IoT telemetry backends, high-concurrency event-driven architectures, and autonomous multi-agent AI ecosystems.
+
+- ☀️ **Current Scale:** Spearheading end-to-end backend operations for **3,000+ live solar dataloggers** across **12+ MW operational generation capacity** with **99.9% production uptime**.
+- ⚡ **High Throughput:** Operating an enterprise **Mosquitto MQTT broker cluster** handling **100,000+ daily packets** with sustained peak throughput exceeding **1,700 messages/second** with zero dropped packets.
+- 🗄️ **Time-Series Optimization:** Designed partitioned **TimescaleDB hypertables** with compound indexing and automated chunk retention, achieving a **95% query latency reduction** across **100M+ historical telemetry records**.
+- 🤖 **Agentic AI Leadership:** Pioneer in production Agentic AI systems deploying **CHAMP OS** using **LangChain, LangGraph**, and **Anthropic Model Context Protocol (MCP)** for automated telemetry anomaly triage and self-healing cloud pipelines.
+- 📍 **Location:** Greater Noida, Uttar Pradesh, India
+
+---
+
+## 🛠️ Core Technical Competencies
+
+<div align="center">
+
+| Domain | Technologies, Frameworks & Tooling |
+| :--- | :--- |
+| **Backend & Core Languages** | `Python (Advanced)` `Django` `Django REST Framework` `FastAPI` `Java` `JavaScript` `Bash Scripting` |
+| **AI Agents & LLM Systems** | `Anthropic Model Context Protocol (MCP)` `LangChain` `LangGraph` `Autonomous Agent Loops` `Multi-Agent Tool Calling` `RAG Pipelines` `Llama 3.3` |
+| **Distributed Systems & IoT** | `MQTT (Mosquitto TLS/mTLS)` `Modbus RTU/TCP` `WebSockets` `Redis Pub/Sub` `Celery Task Queues` `Event-Driven Systems` |
+| **Databases & Time-Series** | `TimescaleDB (Hypertables & Chunking)` `PostgreSQL` `PgBouncer` `Redis Caching` `MySQL` `Query Optimization` |
+| **Cloud & Infrastructure** | `AWS (EC2, VPC, EBS, Security Groups, IAM)` `Linux Administration (Ubuntu)` `Nginx Reverse Proxy` `Gunicorn` `SSL/TLS Automation` `Docker` |
+| **Architecture & DevOps** | `High-Throughput Ingestion Pipelines` `Multi-Tenant RBAC` `Microservices` `CI/CD` `GitOps` `Zero-Downtime Deployment` |
+
+<br/>
+
+<!-- SKILL ICONS -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,aws,docker,linux,git,github,gitlab,bash,nginx&perline=7" alt="Tech Stack Badges" />
+</p>
+
+</div>
+
+---
+
+## 💼 Professional Experience
+
+### 🚀 **Lead Backend & Cloud Systems Engineer** | *Watthut Electronics / Involtics India LLP*
+*Jan 2025 – Present | Greater Noida, India*
+- Architected and operate centralized clean-tech IoT telemetry platform managing **3,000+ commercial & residential dataloggers** across **12+ MW operational solar generation** with **99.9% production uptime**.
+- Engineered autonomous multi-agent AI operating systems (**CHAMP OS**) utilizing **LangChain** and **Anthropic Model Context Protocol (MCP)** for automated telemetry anomaly triage, device health verification, and high-velocity cloud orchestration.
+- Engineered enterprise **Mosquitto MQTT broker cluster** featuring mutual TLS authentication (mTLS), handling **100,000+ daily packets** with sustained peak throughput exceeding **1,700 messages/second** with zero dropped packets.
+- Designed partitioned **TimescaleDB hypertables** with compound indexing and automated chunk retention, achieving a **95% reduction** in dashboard query response time across **100M+ historical telemetry rows**.
+- Spearheaded reverse-engineering and full localization of the global **Deye Solar cloud platform** to comply with India data sovereignty standards, successfully powering 3 high-availability production domains.
+- Built distributed **Celery and Redis** worker task pipelines for real-time solar inverter fault alerts, energy rollups, and automated customer diagnostics.
+- Automated multi-server deployment workflows across **7 AWS production EC2 servers** using Nginx, Gunicorn, SSL auto-rotation, and automated disaster-recovery backup schedules.
+
+---
+
+### ⚙️ **Software Developer (Backend & IoT)** | *LongLasst Smart Appliances*
+*Jun 2024 – Dec 2024 | Gurugram, India*
+- Developed high-performance RESTful APIs using **Django REST Framework** for real-time sensor ingestion across thousands of smart consumer appliances.
+- Integrated **Redis Pub/Sub** and **WebSocket** bidirectional streaming, providing sub-100ms live appliance diagnostics to web and mobile client dashboards.
+- Designed normalized **PostgreSQL** schemas and optimized queries for appliance telemetry logging, automated warranty validation, and multi-tenant user access.
+
+---
+
+### 🌐 **Software Engineer** | *GLOBAIoT*
+*Mar 2023 – May 2024 | Faridabad, India*
+- Engineered resilient industrial IoT data ingestion pipelines with automated failover and retry mechanics for multi-sensor environmental monitoring arrays.
+- Tuned **PostgreSQL** analytical queries and indexing strategies, decreasing query latency by **40%** over multi-million row historical sensor databases.
+- Created automated **Python CLI toolsets** for remote device provisioning, edge heartbeat monitoring, and automated hardware diagnostics.
+
+---
+
+### 📡 **Software Engineer (Backend & IoT)** | *Pinglaksh Anveshnam Pvt. Ltd.*
+*Feb 2022 – Feb 2023 | Gurugram, India*
+- Designed and implemented REST APIs using **Django** to parse binary sensor telemetry from edge dataloggers and feed real-time analytics monitoring dashboards.
+- Configured **MQTT brokers** and **Modbus RTU/TCP register maps** to interface hardware controllers with cloud data stores over cellular connectivity.
+- Promoted from Software Developer Intern (Aug 2021 – Feb 2022) after leading development of backend ingestion modules and Linux server configurations.
+
+---
+
+## 🎓 Education & 📜 Certifications
+
+- **Bachelor of Technology (B.Tech) in Computer Science & Engineering** | *Kurukshetra University* (2017 – 2021)
+- 🏅 **Microsoft Applied Skills:** AI Agent Development *(Credly Verified Badge)*
+- 🏅 **Anthropic Model Context Protocol (MCP) & LangChain Architecture**
+- 🏅 **Python Programming & Distributed Systems Specialization**
+- 🏅 **Core & Advanced Java Enterprise Systems**
+
+---
+
+## 📊 Live GitHub Activity & Engineering Telemetry
+
+<div align="center">
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rajkishlay1&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajkishlay1&theme=tokyonight&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=00D4FF&sideNums=E2E8F0&dates=64748B&background=0A0E1A" alt="GitHub Streak" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="Top Languages" width="48%" />
 </p>
 
 <br/>
 
-<!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=Rajkishlay1&color=ff7a1a&style=for-the-badge&label=SHINOBI%20VISITORS%20COUNT" alt="Visitor Counter" />
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajkishlay1&theme=tokyo-night&hide_border=true&bg_color=0A0E1A&color=00D4FF&line=00D4FF&point=FFFFFF&area=true" alt="Contribution Graph" width="100%" />
 
 <br/><br/>
 
-<img src="https://media.giphy.com/media/sULKEgDXZym9q/giphy.gif" alt="Chibi Naruto thumbs up" width="90"/>
+<!-- PROFILE VIEWS COUNTER -->
+<img src="https://komarev.com/ghpvc/?username=Rajkishlay1&color=00d4ff&style=for-the-badge&label=PROFILE%20VIEWS" alt="Profile Views" />
 
-<br/>
+<br/><br/>
 
-**"Dattebayo! Keep coding, keep scaling, never stop learning."** 🍥🍃
+<p align="center">
+  <i>"Architecture is not just about what works; it is about building systems that never fail under production scale."</i>
+</p>
 
 </div>
