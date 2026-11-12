@@ -7,7 +7,7 @@
 
 <!-- DYNAMIC TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=750&lines=Lead+Backend+%26+Distributed+Systems+Engineer;AI+Agent+Architect+%7C+LangChain+%2B+Anthropic+MCP+Specialist;Managing+3%2C000%2B+Live+Solar+Dataloggers+across+12%2B+MW+Capacity;Handling+100K%2B+Packets%2FDay+%7C+1%2C700+msgs%2Fsec+Peak+%7C+99.9%25+Uptime;High-Throughput+IoT+Telemetry+%7C+TimescaleDB+%7C+Mosquitto+mTLS" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=750&lines=Lead+Backend+%26+Distributed+Systems+Engineer;Managing+150+Solar+Plants+%7C+623.19+kWp+Installed+Capacity;4%2C911%2B+Live+Dataloggers+%7C+119%2B+Industrial+Inverters;100K%2B+Packets%2FDay+%7C+Sub-2-Min+Intervals+%7C+99.9%25+Uptime;IoT+Telemetry+%7C+TimescaleDB+%7C+Mosquitto+mTLS+%7C+Modbus+RTU" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -41,13 +41,55 @@
 
 ## 👨‍💻 Executive Summary
 
-High-impact **Lead Backend & Distributed Systems Engineer** and **AI Agent Architect** with **4+ years of production experience** architecting mission-critical IoT telemetry backends, high-concurrency event-driven architectures, and autonomous multi-agent AI ecosystems.
+High-impact **Lead Backend & Distributed Systems Engineer** with **4+ years of production experience** architecting mission-critical IoT telemetry backends, high-concurrency event-driven architectures, and distributed renewable energy monitoring platforms.
 
-- ☀️ **Current Scale:** Spearheading end-to-end backend operations for **3,000+ live solar dataloggers** across **12+ MW operational generation capacity** with **99.9% production uptime**.
-- ⚡ **High Throughput:** Operating an enterprise **Mosquitto MQTT broker cluster** handling **100,000+ daily packets** with sustained peak throughput exceeding **1,700 messages/second** with zero dropped packets.
-- 🗄️ **Time-Series Optimization:** Designed partitioned **TimescaleDB hypertables** with compound indexing and automated chunk retention, achieving a **95% query latency reduction** across **100M+ historical telemetry records**.
+- ☀️ **Production Fleet Scale (Verified Live):** Direct architecture owner of Involtics SolarHub platform managing **623.19 kWp installed solar capacity** across **150 commercial and residential plants**, **4,911+ live dataloggers**, and **119+ industrial inverters** with **99.9% uptime**.
+- ⚡ **High-Throughput Telemetry Pipeline:** Operating clustered **Mosquitto MQTT brokers** (TLS/mTLS) ingesting **100,000+ daily packets** (~2-minute telemetry intervals) with peak bursts exceeding **1,700 messages/sec** and zero message loss.
+- 🗄️ **Time-Series Optimization:** Architected partitioned **TimescaleDB hypertables** with automated chunk compression and compound indexing, slashing dashboard analytical query latency by **95%** across **100M+ historical telemetry records**.
+- 🔄 **Enterprise Protocols & Remote Control:** Implemented bidirectional inverter telemetry and parameter control supporting **GB3024 ASCII CRC-16 protocol** and **Deye Modbus RTU V133 protocol** for active/reactive power regulation, work modes, and smart meter integration.
+- 🌐 **OpenAPI & Third-Party Integration:** Built secure **NBI (Open Platform)** microservice with `X-App-Id` and `X-App-Secret` tokenization for third-party developer telemetry access with customer-level plant isolation.
 - 🤖 **Agentic AI Leadership:** Pioneer in production Agentic AI systems deploying **CHAMP OS** using **LangChain, LangGraph**, and **Anthropic Model Context Protocol (MCP)** for automated telemetry anomaly triage and self-healing cloud pipelines.
 - 📍 **Location:** Greater Noida, Uttar Pradesh, India
+
+---
+
+## 🌐 Production Cloud Topology & System Architecture
+
+Distributed multi-server high-availability ecosystem running across dedicated AWS production infrastructure:
+
+```
+                                  ┌───────────────────────────────┐
+                                  │   DNS & Global Edge Gateway   │
+                                  └───────────────┬───────────────┘
+                                                  │
+                 ┌────────────────────────────────┼────────────────────────────────┐
+                 ▼                                ▼                                ▼
+  ┌──────────────────────────────┐ ┌──────────────────────────────┐ ┌──────────────────────────────┐
+  │     Corporate Edge Web       │ │    Core Relational & RMS     │ │   Telemetry Engine (Inventa) │
+  ├──────────────────────────────┤ ├──────────────────────────────┤ ├──────────────────────────────┤
+  │ • watthut.com                │ │ • ramsdb.involtics.com       │ │ • dbdemo.involtics.com       │
+  │ • involtics.com              │ │ • rmsindapp.involtics.com    │ │ • String Inverter & 3kW 1-Ph │
+  │ • Corporate Portal & Brand   │ │ • rmsapp.involtics.com       │ │ • MQTT Broker & TimescaleDB  │
+  │ • Edge Nginx & SSL Router    │ │ • India Data Center Core App │ │ • NBI OpenAPI Customer API   │
+  └──────────────────────────────┘ └──────────────────────────────┘ └──────────────┬───────────────┘
+                                                                                   │ API / WS
+                                                                                   ▼
+                                                                    ┌──────────────────────────────┐
+                                                                    │   SolarHub Client Portal     │
+                                                                    ├──────────────────────────────┤
+                                                                    │ • solarhub.involtics.com     │
+                                                                    │ • 150 Plants & 623.19 kWp UI │
+                                                                    │ • Real-time React Dashboard  │
+                                                                    │ • Live Energy Flow & Alarms  │
+                                                                    └──────────────────────────────┘
+```
+
+| Server Role | Production Domains / Services | Architecture & Tech Stack |
+| :--- | :--- | :--- |
+| **Edge Web & Corporate** | `watthut.com`<br/>`involtics.com` | High-availability Nginx edge proxy, SSL auto-rotation, corporate web applications |
+| **Global & India RMS** | `ramsdb.involtics.com`<br/>`rmsindapp.involtics.com`<br/>`rmsapp.involtics.com` | Primary relational database cluster, India Data Center RMS application, Global App backend |
+| **Telemetry & Ingestion Engine** | `dbdemo.involtics.com` | Python/Django 5, Gunicorn, Mosquitto MQTT, TimescaleDB Hypertables, Celery/Redis, NBI OpenAPI |
+| **SolarHub Dashboard** | `solarhub.involtics.com` | Production Solar Management Dashboard (150 Plants, 623.19 kWp), Real-time Flow Visualizations |
 
 ---
 
@@ -57,12 +99,12 @@ High-impact **Lead Backend & Distributed Systems Engineer** and **AI Agent Archi
 
 | Domain | Technologies, Frameworks & Tooling |
 | :--- | :--- |
-| **Backend & Core Languages** | `Python (Advanced)` `Django` `Django REST Framework` `FastAPI` `Java` `JavaScript` `Bash Scripting` |
-| **AI Agents & LLM Systems** | `Anthropic Model Context Protocol (MCP)` `LangChain` `LangGraph` `Autonomous Agent Loops` `Multi-Agent Tool Calling` `RAG Pipelines` `Llama 3.3` |
-| **Distributed Systems & IoT** | `MQTT (Mosquitto TLS/mTLS)` `Modbus RTU/TCP` `WebSockets` `Redis Pub/Sub` `Celery Task Queues` `Event-Driven Systems` |
-| **Databases & Time-Series** | `TimescaleDB (Hypertables & Chunking)` `PostgreSQL` `PgBouncer` `Redis Caching` `MySQL` `Query Optimization` |
-| **Cloud & Infrastructure** | `AWS (EC2, VPC, EBS, Security Groups, IAM)` `Linux Administration (Ubuntu)` `Nginx Reverse Proxy` `Gunicorn` `SSL/TLS Automation` `Docker` |
-| **Architecture & DevOps** | `High-Throughput Ingestion Pipelines` `Multi-Tenant RBAC` `Microservices` `CI/CD` `GitOps` `Zero-Downtime Deployment` |
+| **Backend & Core Languages** | `Python (Advanced)` `Django 5` `Django REST Framework` `FastAPI` `Java` `JavaScript` `Bash Scripting` |
+| **Distributed Systems & IoT** | `MQTT (Mosquitto TLS/mTLS)` `Modbus RTU/TCP` `GB3024 ASCII` `WebSockets` `Redis Pub/Sub` `Celery Task Queues` |
+| **Databases & Time-Series** | `TimescaleDB (Hypertables & Compression)` `PostgreSQL` `PgBouncer` `Redis Caching` `MySQL` `SQL Tuning` |
+| **AI Agents & LLM Systems** | `Anthropic Model Context Protocol (MCP)` `LangChain` `LangGraph` `Autonomous Agent Loops` `Multi-Agent Tool Calling` |
+| **Cloud & DevOps** | `AWS (EC2, VPC, EBS, Security Groups, IAM)` `Linux Administration (Ubuntu)` `Nginx Reverse Proxy` `Gunicorn` `Docker` |
+| **Multi-Cloud Governance** | `Dual-Remote Mirroring (GitHub + GitLab)` `Automated Multi-Server Daily Backups` `Zero-Downtime Deployment` |
 
 <br/>
 
@@ -79,13 +121,13 @@ High-impact **Lead Backend & Distributed Systems Engineer** and **AI Agent Archi
 
 ### 🚀 **Lead Backend & Cloud Systems Engineer** | *Watthut Electronics / Involtics India LLP*
 *Jan 2025 – Present | Greater Noida, India*
-- Architected and operate centralized clean-tech IoT telemetry platform managing **3,000+ commercial & residential dataloggers** across **12+ MW operational solar generation** with **99.9% production uptime**.
-- Engineered autonomous multi-agent AI operating systems (**CHAMP OS**) utilizing **LangChain** and **Anthropic Model Context Protocol (MCP)** for automated telemetry anomaly triage, device health verification, and high-velocity cloud orchestration.
-- Engineered enterprise **Mosquitto MQTT broker cluster** featuring mutual TLS authentication (mTLS), handling **100,000+ daily packets** with sustained peak throughput exceeding **1,700 messages/second** with zero dropped packets.
-- Designed partitioned **TimescaleDB hypertables** with compound indexing and automated chunk retention, achieving a **95% reduction** in dashboard query response time across **100M+ historical telemetry rows**.
-- Spearheaded reverse-engineering and full localization of the global **Deye Solar cloud platform** to comply with India data sovereignty standards, successfully powering 3 high-availability production domains.
-- Built distributed **Celery and Redis** worker task pipelines for real-time solar inverter fault alerts, energy rollups, and automated customer diagnostics.
-- Automated multi-server deployment workflows across **7 AWS production EC2 servers** using Nginx, Gunicorn, SSL auto-rotation, and automated disaster-recovery backup schedules.
+- Direct end-to-end architecture ownership of centralized solar IoT platform managing **623.19 kWp installed generation capacity** across **150 commercial and residential plants**, **4,911+ live dataloggers**, and **119+ industrial inverters** with **99.9% uptime**.
+- Architected enterprise **Mosquitto MQTT ingestion engine** handling **100,000+ daily packets** (~2-minute telemetry intervals) with peak bursts exceeding **1,700 msgs/sec** and zero packet drops.
+- Designed partitioned **TimescaleDB hypertables** with automated chunk retention and compression, slashing analytical dashboard query latency by **95%** across **100M+ rows**.
+- Implemented full-duplex remote inverter parameter control using **GB3024 ASCII CRC-16** and **Deye Modbus RTU V133**, enabling remote grid-tied/zero-export limits and work-mode switching.
+- Built secure **NBI (Open Platform)** microservice featuring `X-App-Id` and `X-App-Secret` tokenization, enabling enterprise customers to pull real-time telemetry securely with plant-level isolation.
+- Implemented **Dual-Push Multi-Cloud Git Governance** across GitHub and GitLab with automated branch mirroring and strict organizational repository boundaries.
+- Engineered automated daily backup architecture running server-side cron (`involtics_db`, backend codebase, and frontend build) with automated local disaster-recovery mirroring.
 
 ---
 
@@ -116,7 +158,7 @@ High-impact **Lead Backend & Distributed Systems Engineer** and **AI Agent Archi
 ## 🎓 Education & 📜 Certifications
 
 - **Bachelor of Technology (B.Tech) in Computer Science & Engineering** | *Kurukshetra University* (2017 – 2021)
-- 🏅 **Microsoft Applied Skills:** AI Agent Development *(Credly Verified Badge)*
+- 🏅 **Microsoft Applied Skills:** AI Agent Development *(Credly Verified)*
 - 🏅 **Anthropic Model Context Protocol (MCP) & LangChain Architecture**
 - 🏅 **Python Programming & Distributed Systems Specialization**
 - 🏅 **Core & Advanced Java Enterprise Systems**
