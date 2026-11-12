@@ -175,7 +175,7 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Rajkishlay1&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=E2E8F0&bg_color=0A0E1A" alt="Top Languages" width="48%" />
+  <img src="./assets/languages.svg" alt="Top Languages" width="48%" />
 </p>
 
 <br/>
