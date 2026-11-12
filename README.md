@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- LOCAL REPO HEADER BANNER (100% RELIABLE, ZERO PROXY BREAKS) -->
-<img src="./assets/banner.svg" alt="Kishlay Raj Header Banner" width="100%"/>
+<img src="https://gitlab.com/rajkishlay786/rajkishlay786/-/raw/main/assets/banner.svg" alt="Kishlay Raj Header Banner" width="100%"/>
 
 <br/><br/>
 
@@ -175,7 +175,7 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
 </p>
 
 <p align="center">
-  <img src="./assets/languages.svg" alt="Top Languages" width="48%" />
+  <img src="https://gitlab.com/rajkishlay786/rajkishlay786/-/raw/main/assets/languages.svg" alt="Top Languages" width="48%" />
 </p>
 
 <br/>
