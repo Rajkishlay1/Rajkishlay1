@@ -43,7 +43,7 @@
 
 High-impact **Lead Backend & Distributed Systems Engineer** with **4+ years of production experience** architecting mission-critical IoT telemetry backends, high-concurrency event-driven architectures, and distributed renewable energy monitoring platforms.
 
-- ☀️ **Production Fleet Scale (Verified Live):** Direct architecture owner of Involtics SolarHub platform managing **637.99 kWp installed solar capacity** across **154 commercial and residential plants**, **4,911+ live dataloggers**, and **120+ industrial inverters** with **99.9% uptime**.
+- ☀️ **Production Fleet Scale (Verified Live):** Direct architecture owner of Involtics SolarHub platform managing **637.99 kWp installed solar capacity** across **154 commercial and residential plants**, **4,911+ live dataloggers**, and **121+ industrial inverters** with **99.9% uptime**.
 - ⚡ **High-Throughput Telemetry Pipeline:** Operating clustered **Mosquitto MQTT brokers** (TLS/mTLS) ingesting **100,000+ daily packets** (~2-minute telemetry intervals) with peak bursts exceeding **1,700 messages/sec** and zero message loss.
 - 🗄️ **Time-Series Optimization:** Architected partitioned **TimescaleDB hypertables** with automated chunk compression and compound indexing, slashing dashboard analytical query latency by **95%** across **100M+ historical telemetry records**.
 - 🔄 **Enterprise Protocols & Remote Control:** Implemented bidirectional inverter telemetry and parameter control supporting **GB3024 ASCII CRC-16 protocol** and **Deye Modbus RTU V133 protocol** for active/reactive power regulation, work modes, and smart meter integration.
@@ -121,7 +121,7 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
 
 ### 🚀 **Lead Backend & Cloud Systems Engineer** | *Watthut Electronics / Involtics India LLP*
 *Jan 2025 – Present | Greater Noida, India*
-- Direct end-to-end architecture ownership of centralized solar IoT platform managing **637.99 kWp installed solar capacity** across **154 commercial and residential plants**, **4,911+ live dataloggers**, and **120+ industrial inverters** with **99.9% uptime**.
+- Direct end-to-end architecture ownership of centralized solar IoT platform managing **637.99 kWp installed solar capacity** across **154 commercial and residential plants**, **4,911+ live dataloggers**, and **121+ industrial inverters** with **99.9% uptime**.
 - Architected enterprise **Mosquitto MQTT ingestion engine** handling **100,000+ daily packets** (~2-minute telemetry intervals) with peak bursts exceeding **1,700 msgs/sec** and zero packet drops.
 - Designed partitioned **TimescaleDB hypertables** with automated chunk retention and compression, slashing analytical dashboard query latency by **95%** across **100M+ rows**.
 - Implemented full-duplex remote inverter parameter control using **GB3024 ASCII CRC-16** and **Deye Modbus RTU V133**, enabling remote grid-tied/zero-export limits and work-mode switching.
