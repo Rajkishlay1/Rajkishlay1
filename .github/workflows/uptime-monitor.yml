@@ -1,4 +1,4 @@
-name: 🛡️ Involtics Production Uptime Monitor
+name: 🛡️ Involtics & Watthut Production Fleet Watchdog
 
 on:
   schedule:
@@ -7,75 +7,35 @@ on:
   workflow_dispatch:  # Manual trigger button in GitHub UI
 
 jobs:
-  uptime-check:
-    name: Check Involtics Endpoints
+  fleet-health-check:
+    name: Fleet Health Watchdog (8 Endpoints)
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 4
 
     steps:
-      - name: 🔍 Check SolarHub (solarhub.involtics.com)
-        id: solarhub
-        run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-          STATUS=$(curl -A "$UA" -L -o /dev/null -s -w "%{http_code}" --max-time 15 https://solarhub.involtics.com)
-          RESPONSE_TIME=$(curl -A "$UA" -L -o /dev/null -s -w "%{time_total}" --max-time 15 https://solarhub.involtics.com)
-          echo "status=$STATUS" >> $GITHUB_OUTPUT
-          echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
-          echo "✅ SolarHub → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
-          if [ "$STATUS" != "200" ] && [ "$STATUS" != "301" ] && [ "$STATUS" != "302" ]; then
-            echo "❌ ALERT: SolarHub returned HTTP $STATUS"
-            exit 1
-          fi
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
 
-      - name: 🔍 Check DB Demo (dbdemo.involtics.com)
-        id: dbdemo
-        run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-          STATUS=$(curl -A "$UA" -L -o /dev/null -s -w "%{http_code}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
-          RESPONSE_TIME=$(curl -A "$UA" -L -o /dev/null -s -w "%{time_total}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
-          echo "status=$STATUS" >> $GITHUB_OUTPUT
-          echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
-          echo "✅ DB Demo → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
-          if [ "$STATUS" != "200" ] && [ "$STATUS" != "301" ] && [ "$STATUS" != "302" ]; then
-            echo "❌ ALERT: DB Demo returned HTTP $STATUS"
-            exit 1
-          fi
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      - name: 🔍 Check Main Site (involtics.com)
-        id: mainsite
+      - name: 📦 Install dependencies
         run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-          STATUS=$(curl -A "$UA" -L -o /dev/null -s -w "%{http_code}" --max-time 15 https://involtics.com)
-          RESPONSE_TIME=$(curl -A "$UA" -L -o /dev/null -s -w "%{time_total}" --max-time 15 https://involtics.com)
-          echo "status=$STATUS" >> $GITHUB_OUTPUT
-          echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
-          echo "✅ Main Site → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
-          if [ "$STATUS" != "200" ] && [ "$STATUS" != "301" ] && [ "$STATUS" != "302" ]; then
-            echo "❌ ALERT: Main Site returned HTTP $STATUS"
-            exit 1
-          fi
+          pip install --no-cache-dir requests urllib3
 
-      - name: ✅ All Systems Operational
-        if: success()
+      - name: 🔍 Execute Fleet Monitor
+        id: monitor
         run: |
-          echo "============================================"
-          echo "✅ ALL INVOLTICS ENDPOINTS ARE UP"
-          echo "============================================"
-          echo "🌐 solarhub.involtics.com   → UP"
-          echo "🌐 dbdemo.involtics.com     → UP"
-          echo "🌐 involtics.com            → UP"
-          echo "⏰ Checked at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-          echo "============================================"
+          python scripts/monitor_fleet.py
 
-      - name: 🚨 ALERT — Send Failure Notification
+      - name: 🚨 Notify On Critical Outage
         if: failure()
         run: |
-          echo "============================================"
-          echo "🚨 INVOLTICS SERVER DOWN ALERT!"
-          echo "============================================"
-          echo "One or more endpoints are NOT responding."
-          echo "Check GitHub Actions email notification."
-          echo "⏰ Failure detected at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-          echo "ACTION REQUIRED: SSH into S2 and check Gunicorn/Nginx"
-          echo "============================================"
+          echo "============================================================"
+          echo "🚨 CRITICAL OUTAGE DETECTED ON PRIMARY INVOLTICS SERVICES"
+          echo "============================================================"
+          echo "Check the step summary table above for detailed status."
+          echo "Alert dispatched to: rajkishlay786@gmail.com"
           exit 1
