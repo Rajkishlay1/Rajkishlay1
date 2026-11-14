@@ -1,0 +1,80 @@
+name: 🛡️ Involtics Production Uptime Monitor
+
+on:
+  schedule:
+    # Runs every 5 minutes (GitHub Actions minimum is 5 min)
+    - cron: '*/5 * * * *'
+  workflow_dispatch:  # Manual trigger button in GitHub UI
+
+jobs:
+  uptime-check:
+    name: Check Involtics Endpoints
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: 🔍 Check SolarHub (solarhub.involtics.com)
+        id: solarhub
+        run: |
+          STATUS=$(curl -o /dev/null -s -w "%{http_code}" --max-time 15 https://solarhub.involtics.com)
+          RESPONSE_TIME=$(curl -o /dev/null -s -w "%{time_total}" --max-time 15 https://solarhub.involtics.com)
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
+          echo "✅ SolarHub → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
+          if [ "$STATUS" != "200" ] && [ "$STATUS" != "301" ] && [ "$STATUS" != "302" ]; then
+            echo "❌ ALERT: SolarHub returned HTTP $STATUS"
+            exit 1
+          fi
+
+      - name: 🔍 Check DB Demo (dbdemo.involtics.com)
+        id: dbdemo
+        run: |
+          STATUS=$(curl -o /dev/null -s -w "%{http_code}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
+          RESPONSE_TIME=$(curl -o /dev/null -s -w "%{time_total}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
+          echo "✅ DB Demo → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
+          if [ "$STATUS" != "200" ] && [ "$STATUS" != "301" ] && [ "$STATUS" != "302" ]; then
+            echo "❌ ALERT: DB Demo returned HTTP $STATUS"
+            exit 1
+          fi
+
+      - name: 🔍 Check Main Site (involtics.com)
+        id: mainsite
+        run: |
+          STATUS=$(curl -o /dev/null -s -w "%{http_code}" --max-time 15 https://involtics.com)
+          RESPONSE_TIME=$(curl -o /dev/null -s -w "%{time_total}" --max-time 15 https://involtics.com)
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
+          echo "✅ Main Site → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
+          if [ "$STATUS" != "200" ] && [ "$STATUS" != "301" ] && [ "$STATUS" != "302" ]; then
+            echo "❌ ALERT: Main Site returned HTTP $STATUS"
+            exit 1
+          fi
+
+      - name: ✅ All Systems Operational
+        if: success()
+        run: |
+          echo "============================================"
+          echo "✅ ALL INVOLTICS ENDPOINTS ARE UP"
+          echo "============================================"
+          echo "🌐 solarhub.involtics.com   → HTTP 200 OK"
+          echo "🌐 dbdemo.involtics.com     → HTTP 200 OK"
+          echo "🌐 involtics.com            → HTTP 200 OK"
+          echo "⏰ Checked at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "============================================"
+
+      - name: 🚨 ALERT — Send Failure Notification
+        if: failure()
+        run: |
+          echo "============================================"
+          echo "🚨 INVOLTICS SERVER DOWN ALERT!"
+          echo "============================================"
+          echo "One or more endpoints are NOT responding."
+          echo "Check GitHub Actions email notification."
+          echo "⏰ Failure detected at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "ACTION REQUIRED: SSH into S2 and check Gunicorn/Nginx"
+          echo "============================================"
+          # GitHub automatically sends email to rajkishlay786@gmail.com
+          # when this job fails (configured in GitHub notification settings)
+          exit 1
