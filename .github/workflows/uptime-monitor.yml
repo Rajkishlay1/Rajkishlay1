@@ -2,7 +2,7 @@ name: 🛡️ Involtics Production Uptime Monitor
 
 on:
   schedule:
-    # Runs every 5 minutes (GitHub Actions minimum is 5 min)
+    # Runs every 5 minutes
     - cron: '*/5 * * * *'
   workflow_dispatch:  # Manual trigger button in GitHub UI
 
@@ -16,8 +16,9 @@ jobs:
       - name: 🔍 Check SolarHub (solarhub.involtics.com)
         id: solarhub
         run: |
-          STATUS=$(curl -o /dev/null -s -w "%{http_code}" --max-time 15 https://solarhub.involtics.com)
-          RESPONSE_TIME=$(curl -o /dev/null -s -w "%{time_total}" --max-time 15 https://solarhub.involtics.com)
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+          STATUS=$(curl -A "$UA" -L -o /dev/null -s -w "%{http_code}" --max-time 15 https://solarhub.involtics.com)
+          RESPONSE_TIME=$(curl -A "$UA" -L -o /dev/null -s -w "%{time_total}" --max-time 15 https://solarhub.involtics.com)
           echo "status=$STATUS" >> $GITHUB_OUTPUT
           echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
           echo "✅ SolarHub → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
@@ -29,8 +30,9 @@ jobs:
       - name: 🔍 Check DB Demo (dbdemo.involtics.com)
         id: dbdemo
         run: |
-          STATUS=$(curl -o /dev/null -s -w "%{http_code}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
-          RESPONSE_TIME=$(curl -o /dev/null -s -w "%{time_total}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+          STATUS=$(curl -A "$UA" -L -o /dev/null -s -w "%{http_code}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
+          RESPONSE_TIME=$(curl -A "$UA" -L -o /dev/null -s -w "%{time_total}" --max-time 15 https://dbdemo.involtics.com/api/docs/)
           echo "status=$STATUS" >> $GITHUB_OUTPUT
           echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
           echo "✅ DB Demo → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
@@ -42,8 +44,9 @@ jobs:
       - name: 🔍 Check Main Site (involtics.com)
         id: mainsite
         run: |
-          STATUS=$(curl -o /dev/null -s -w "%{http_code}" --max-time 15 https://involtics.com)
-          RESPONSE_TIME=$(curl -o /dev/null -s -w "%{time_total}" --max-time 15 https://involtics.com)
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+          STATUS=$(curl -A "$UA" -L -o /dev/null -s -w "%{http_code}" --max-time 15 https://involtics.com)
+          RESPONSE_TIME=$(curl -A "$UA" -L -o /dev/null -s -w "%{time_total}" --max-time 15 https://involtics.com)
           echo "status=$STATUS" >> $GITHUB_OUTPUT
           echo "response_time=$RESPONSE_TIME" >> $GITHUB_OUTPUT
           echo "✅ Main Site → HTTP $STATUS | Response: ${RESPONSE_TIME}s"
@@ -58,9 +61,9 @@ jobs:
           echo "============================================"
           echo "✅ ALL INVOLTICS ENDPOINTS ARE UP"
           echo "============================================"
-          echo "🌐 solarhub.involtics.com   → HTTP 200 OK"
-          echo "🌐 dbdemo.involtics.com     → HTTP 200 OK"
-          echo "🌐 involtics.com            → HTTP 200 OK"
+          echo "🌐 solarhub.involtics.com   → UP"
+          echo "🌐 dbdemo.involtics.com     → UP"
+          echo "🌐 involtics.com            → UP"
           echo "⏰ Checked at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
           echo "============================================"
 
@@ -75,6 +78,4 @@ jobs:
           echo "⏰ Failure detected at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
           echo "ACTION REQUIRED: SSH into S2 and check Gunicorn/Nginx"
           echo "============================================"
-          # GitHub automatically sends email to rajkishlay786@gmail.com
-          # when this job fails (configured in GitHub notification settings)
           exit 1
