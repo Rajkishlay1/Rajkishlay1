@@ -67,7 +67,7 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
   ┌──────────────────────────────┐ ┌──────────────────────────────┐ ┌──────────────────────────────┐
   │     Corporate Edge Web       │ │    Core Relational & RMS     │ │   Telemetry Engine (Inventa) │
   ├──────────────────────────────┤ ├──────────────────────────────┤ ├──────────────────────────────┤
-  │ • watthut.com                │ │ • ramsdb.involtics.com       │ │ • dbdemo.involtics.com       │
+  │ • watthut.com                │ │ • rmsdb.involtics.com        │ │ • dbdemo.involtics.com       │
   │ • involtics.com              │ │ • rmsindapp.involtics.com    │ │ • String Inverter & 3kW 1-Ph │
   │ • Corporate Portal & Brand   │ │ • rmsapp.involtics.com       │ │ • MQTT Broker & TimescaleDB  │
   │ • Edge Nginx & SSL Router    │ │ • India Data Center Core App │ │ • NBI OpenAPI Customer API   │
@@ -87,7 +87,7 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
 | Server Role | Production Domains / Services | Architecture & Tech Stack |
 | :--- | :--- | :--- |
 | **Edge Web & Corporate** | `watthut.com`<br/>`involtics.com` | High-availability Nginx edge proxy, SSL auto-rotation, corporate web applications |
-| **Global & India RMS** | `ramsdb.involtics.com`<br/>`rmsindapp.involtics.com`<br/>`rmsapp.involtics.com` | Primary relational database cluster, India Data Center RMS application, Global App backend |
+| **Global & India RMS** | `rmsdb.involtics.com`<br/>`rmsindapp.involtics.com`<br/>`rmsapp.involtics.com` | Primary relational database cluster, India Data Center RMS application, Global App backend |
 | **Telemetry & Ingestion Engine** | `dbdemo.involtics.com` | Python/Django 5, Gunicorn, Mosquitto MQTT, TimescaleDB Hypertables, Celery/Redis, NBI OpenAPI |
 | **SolarHub Dashboard** | `solarhub.involtics.com` | Production Solar Management Dashboard (150 Plants, 623.19 kWp), Real-time Flow Visualizations |
 

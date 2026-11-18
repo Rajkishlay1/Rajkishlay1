@@ -62,7 +62,7 @@ ENDPOINTS = [
     },
     {
         "name": "RAMS Database",
-        "url": "https://ramsdb.involtics.com",
+        "url": "https://rmsdb.involtics.com",
         "target_ip": "35.154.17.98",
         "type": "DATABASE SERVER",
         "critical": False,
@@ -167,7 +167,7 @@ md += """
 - **65.1.116.16:** SolarHub Dashboard (`solarhub.involtics.com`) — Inventa Dashboard + String + 3kW 1p
 - **3.7.128.202 (S2):** DB Demo (`dbdemo.involtics.com`) — Inventa Database + Telemetry Pipeline
 - **65.2.104.2:** Company Gateways (`involtics.com`, `watthut.com`, `watthut.com/involtics.com`)
-- **35.154.17.98:** India Data Center Core (`ramsdb.involtics.com`, `rmsindapp.involtics.com`, `rmsapp.involtics.com`)
+- **35.154.17.98:** India Data Center Core (`rmsdb.involtics.com`, `rmsindapp.involtics.com`, `rmsapp.involtics.com`)
 """
 
 if summary_file:
