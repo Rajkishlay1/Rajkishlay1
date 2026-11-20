@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 22px; fill: #F8FAFC; letter-spacing: 1px; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 13px; fill: #94A3B8; }
+    .metric-val { font-family: 'Consolas', 'Monaco', monospace; font-weight: 700; font-size: 24px; fill: #38BDF8; }
+    .metric-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 11px; fill: #64748B; text-transform: uppercase; letter-spacing: 0.8px; }
+    
+    /* Swarm Pulse Animations */
+    @keyframes pulse {
+      0% { r: 3; opacity: 0.3; }
+      50% { r: 6; opacity: 1; filter: drop-shadow(0 0 6px #38BDF8); }
+      100% { r: 3; opacity: 0.3; }
+    }
+    @keyframes packetFlow {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .node-hub { fill: #38BDF8; animation: pulse 2.5s infinite ease-in-out; }
+    .node-green { fill: #34D399; animation: pulse 3s infinite ease-in-out 0.8s; }
+    .node-amber { fill: #FBBF24; animation: pulse 2s infinite ease-in-out 1.4s; }
+    .bus-line { stroke: #1E293B; stroke-width: 1.5; stroke-dasharray: 4, 4; }
+    .active-stream { stroke: url(#cyanGrad); stroke-width: 2; stroke-dasharray: 8, 12; animation: packetFlow 4s linear infinite; }
+  </style>
+
+  <!-- Background Panel -->
+  <rect x="0" y="0" width="920" height="320" rx="16" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Header Section -->
+  <g transform="translate(30, 42)">
+    <circle cx="10" cy="-6" r="6" fill="#10B981" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="26" y="0" class="title">INVOLTICS IOT TELEMETRY SWARM</text>
+    <text x="26" y="20" class="subtitle">Real-Time Sub-2-Minute MQTT Distributed Stream • High-Precision Solar Fleet</text>
+  </g>
+
+  <!-- Metric Badges Section (Top Right) -->
+  <g transform="translate(620, 26)">
+    <rect x="0" y="0" width="270" height="42" rx="8" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
+    <circle cx="16" cy="21" r="4" fill="#38BDF8" />
+    <text x="28" y="25" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="12" fill="#E2E8F0">Status: <tspan fill="#34D399">24/7 LIVE STREAM</tspan></text>
+  </g>
+
+  <!-- Left: Metric Cards Grid -->
+  <g transform="translate(30, 95)">
+    <!-- Card 1: Plants -->
+    <rect x="0" y="0" width="190" height="90" rx="10" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
+    <text x="20" y="38" class="metric-val" fill="#38BDF8">151</text>
+    <text x="20" y="65" class="metric-lbl">Monitored Plants</text>
+
+    <!-- Card 2: Fleet Capacity -->
+    <rect x="205" y="0" width="190" height="90" rx="10" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
+    <text x="225" y="38" class="metric-val" fill="#34D399">627.99 <tspan font-size="14">kWp</tspan></text>
+    <text x="225" y="65" class="metric-lbl">Grid/Hybrid Capacity</text>
+
+    <!-- Card 3: Dataloggers -->
+    <rect x="0" y="105" width="190" height="90" rx="10" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
+    <text x="20" y="143" class="metric-val" fill="#FBBF24">4,911+</text>
+    <text x="20" y="170" class="metric-lbl">Active Dataloggers</text>
+
+    <!-- Card 4: Inverters -->
+    <rect x="205" y="105" width="190" height="90" rx="10" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
+    <text x="225" y="143" class="metric-val" fill="#A855F7">&lt; 120s</text>
+    <text x="225" y="170" class="metric-lbl">Telemetry Latency</text>
+  </g>
+
+  <!-- Right: Dynamic Visual Swarm Mesh Network -->
+  <g transform="translate(450, 90)">
+    <!-- Swarm Boundary Box -->
+    <rect x="0" y="0" width="440" height="195" rx="10" fill="#080D1A" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Static Interconnection Bus Lines -->
+    <line x1="220" y1="95" x2="70" y2="45" class="bus-line" />
+    <line x1="220" y1="95" x2="110" y2="155" class="bus-line" />
+    <line x1="220" y1="95" x2="350" y2="50" class="bus-line" />
+    <line x1="220" y1="95" x2="370" y2="150" class="bus-line" />
+    <line x1="220" y1="95" x2="220" y2="30" class="bus-line" />
+    <line x1="220" y1="95" x2="220" y2="165" class="bus-line" />
+
+    <!-- Active Telemetry Pulsing Stream Paths -->
+    <line x1="220" y1="95" x2="70" y2="45" class="active-stream" />
+    <line x1="220" y1="95" x2="370" y2="150" class="active-stream" />
+    <line x1="110" y1="155" x2="220" y2="95" class="active-stream" />
+    <line x1="350" y1="50" x2="220" y2="95" class="active-stream" />
+
+    <!-- Mesh Nodes (Distributed Inverters & Dataloggers) -->
+    <!-- Peripheral Nodes -->
+    <circle cx="70" cy="45" r="4" class="node-green" />
+    <circle cx="110" cy="155" r="4" class="node-amber" />
+    <circle cx="350" cy="50" r="4" class="node-green" />
+    <circle cx="370" cy="150" r="4" class="node-cyan" fill="#38BDF8" />
+    <circle cx="220" cy="30" r="3.5" class="node-amber" />
+    <circle cx="220" cy="165" r="3.5" class="node-green" />
+    <circle cx="140" cy="80" r="3" fill="#64748B" />
+    <circle cx="290" cy="120" r="3" fill="#64748B" />
+    <circle cx="310" cy="75" r="3" fill="#64748B" />
+
+    <!-- Central S2 Core Telemetry Hub -->
+    <circle cx="220" cy="95" r="14" fill="#0284C7" opacity="0.2" filter="url(#glow)" />
+    <circle cx="220" cy="95" r="8" fill="#38BDF8" class="node-hub" />
+    <circle cx="220" cy="95" r="3" fill="#FFFFFF" />
+
+    <!-- Labels for Hub & Nodes -->
+    <text x="220" y="125" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11" fill="#38BDF8" text-anchor="middle">S2 TELEMETRY HUB</text>
+    <text x="70" y="32" font-family="'Segoe UI', sans-serif" font-size="9" fill="#94A3B8" text-anchor="middle">Noida 10kW</text>
+    <text x="350" y="38" font-family="'Segoe UI', sans-serif" font-size="9" fill="#94A3B8" text-anchor="middle">Delhi 5kW</text>
+    <text x="110" y="175" font-family="'Segoe UI', sans-serif" font-size="9" fill="#94A3B8" text-anchor="middle">Gurugram 20kW</text>
+    <text x="370" y="172" font-family="'Segoe UI', sans-serif" font-size="9" fill="#94A3B8" text-anchor="middle">Lucknow 15kW</text>
+  </g>
+</svg>

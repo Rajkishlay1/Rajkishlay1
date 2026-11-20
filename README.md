@@ -53,6 +53,13 @@ High-impact **Lead Backend & Distributed Systems Engineer** with **4+ years of p
 
 ---
 
+<!-- LIVE DISTRIBUTED IOT SWARM TELEMETRY -->
+<div align="center">
+  <img src="./assets/swarm_telemetry.svg" alt="Involtics IoT Telemetry Swarm Network" width="100%"/>
+</div>
+
+<br/>
+
 ## 🌐 Production Cloud Topology & System Architecture
 
 Distributed multi-server high-availability ecosystem running across dedicated AWS production infrastructure:
