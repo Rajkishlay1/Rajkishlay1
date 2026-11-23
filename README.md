@@ -7,10 +7,22 @@
 </p>
 
 <p align="center">
+  <!-- Connect & Code -->
   <a href="https://linkedin.com/in/kishlay-raj-409853154"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/Rajkishlay1"><img src="https://img.shields.io/badge/GitHub-24292E?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/Rajkishlay1"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://gitlab.com/rajkishlay786"><img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/></a>
-  <a href="mailto:rajkishlay786@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:rajkishlay786@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://wa.me/918271054558"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+</p>
+<p align="center">
+  <!-- National & International Hiring Platforms -->
+  <a href="https://www.naukri.com/mnjuser/profile"><img src="https://img.shields.io/badge/Naukri-003366?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://www.instahyre.com/candidate/opportunities/"><img src="https://img.shields.io/badge/Instahyre-0E8388?style=for-the-badge&logo=rocket&logoColor=white"/></a>
+  <a href="https://internshala.com/student/resume"><img src="https://img.shields.io/badge/Internshala-008BDC?style=for-the-badge&logo=graduation-cap&logoColor=white"/></a>
+  <a href="https://wellfound.com"><img src="https://img.shields.io/badge/Wellfound%20(AngelList)-111111?style=for-the-badge&logo=angellist&logoColor=white"/></a>
+  <a href="https://cutshort.io/profile/candidate-dashboard"><img src="https://img.shields.io/badge/Cutshort-4A154B?style=for-the-badge&logo=target&logoColor=white"/></a>
+  <a href="https://profile.indeed.com"><img src="https://img.shields.io/badge/Indeed-2164F3?style=for-the-badge&logo=indeed&logoColor=white"/></a>
+  <a href="https://involtics.com"><img src="https://img.shields.io/badge/Live%20Fleet-10B981?style=for-the-badge&logo=solaredge&logoColor=white"/></a>
 </p>
 
 ---
