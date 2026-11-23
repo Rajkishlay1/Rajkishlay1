@@ -30,8 +30,33 @@
     <img src="https://img.shields.io/badge/GitLab-rajkishlay786-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
   </a>
   &nbsp;
-  <a href="tel:+918271054558">
-    <img src="https://img.shields.io/badge/Mobile-%2B91_8271054558-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
+  <a href="https://wa.me/918271054558" target="_blank">
+    <img src="https://img.shields.io/badge/Mobile-%2B91_8271054558-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Mobile"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.naukri.com/mnjuser/profile" target="_blank">
+    <img src="https://img.shields.io/badge/Naukri-Kishlay_Raj-003366?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Naukri"/>
+  </a>
+  &nbsp;
+  <a href="https://www.instahyre.com/candidate/opportunities/" target="_blank">
+    <img src="https://img.shields.io/badge/Instahyre-Kishlay_Raj-0E8388?style=for-the-badge&logo=target&logoColor=white" alt="Instahyre"/>
+  </a>
+  &nbsp;
+  <a href="https://internshala.com/student/resume" target="_blank">
+    <img src="https://img.shields.io/badge/Internshala-Kishlay_Raj-008BDC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Internshala"/>
+  </a>
+  &nbsp;
+  <a href="https://wellfound.com" target="_blank">
+    <img src="https://img.shields.io/badge/Wellfound-Kishlay_Raj-000000?style=for-the-badge&logo=angellist&logoColor=white" alt="Wellfound"/>
+  </a>
+  &nbsp;
+  <a href="https://cutshort.io/profile/candidate-dashboard" target="_blank">
+    <img src="https://img.shields.io/badge/Cutshort-Kishlay_Raj-4A154B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Cutshort"/>
+  </a>
+  &nbsp;
+  <a href="https://profile.indeed.com" target="_blank">
+    <img src="https://img.shields.io/badge/Indeed-Kishlay_Raj-2164F3?style=for-the-badge&logo=indeed&logoColor=white" alt="Indeed"/>
   </a>
 </p>
 
