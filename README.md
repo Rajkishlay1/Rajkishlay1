@@ -51,7 +51,7 @@
     <img src="https://img.shields.io/badge/Wellfound-Kishlay_Raj-000000?style=for-the-badge&logo=angellist&logoColor=white" alt="Wellfound"/>
   </a>
   &nbsp;
-  <a href="https://cutshort.io/profile/kishlayraj" target="_blank">
+  <a href="https://cutshort.io/profile/candidate-settings/profile" target="_blank">
     <img src="https://img.shields.io/badge/Cutshort-Kishlay_Raj-4A154B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Cutshort"/>
   </a>
   &nbsp;
