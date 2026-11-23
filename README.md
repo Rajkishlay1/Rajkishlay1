@@ -47,7 +47,7 @@
     <img src="https://img.shields.io/badge/Internshala-Kishlay_Raj-008BDC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Internshala"/>
   </a>
   &nbsp;
-  <a href="https://wellfound.com/u/kishlay-raj" target="_blank">
+  <a href="https://wellfound.com/u/kishlay-raj-19/u/kishlay-raj-19" target="_blank">
     <img src="https://img.shields.io/badge/Wellfound-Kishlay_Raj-000000?style=for-the-badge&logo=angellist&logoColor=white" alt="Wellfound"/>
   </a>
   &nbsp;
