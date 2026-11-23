@@ -7,7 +7,7 @@
 
 <!-- DYNAMIC TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=750&lines=Lead+Backend+%26+Distributed+Systems+Engineer;Managing+180+Solar+Plants+%7C+730.59+kWp+Installed+Capacity;4%2C911%2B+Live+Dataloggers+%7C+119%2B+Industrial+Inverters;150K%2B+Packets%2FDay+%7C+Sub-2-Min+Intervals+%7C+99.9%25+Uptime;IoT+Telemetry+%7C+TimescaleDB+%7C+Mosquitto+mTLS+%7C+Modbus+RTU" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=750&lines=Lead+Backend+%26+Distributed+Systems+Engineer;Managing+179+Solar+Plants+%7C+729.59+kWp+Installed+Capacity;4%2C911%2B+Live+Dataloggers+%7C+119%2B+Industrial+Inverters;150K%2B+Packets%2FDay+%7C+Sub-2-Min+Intervals+%7C+99.9%25+Uptime;IoT+Telemetry+%7C+TimescaleDB+%7C+Mosquitto+mTLS+%7C+Modbus+RTU" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -30,8 +30,33 @@
     <img src="https://img.shields.io/badge/GitLab-rajkishlay786-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
   </a>
   &nbsp;
-  <a href="tel:+918271054558">
-    <img src="https://img.shields.io/badge/Mobile-%2B91_8271054558-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
+  <a href="https://wa.me/918271054558" target="_blank">
+    <img src="https://img.shields.io/badge/Mobile-%2B91_8271054558-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Mobile"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.naukri.com/profile/kishlay-raj" target="_blank">
+    <img src="https://img.shields.io/badge/Naukri-Kishlay_Raj-003366?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Naukri"/>
+  </a>
+  &nbsp;
+  <a href="https://www.instahyre.com/in/kishlayraj" target="_blank">
+    <img src="https://img.shields.io/badge/Instahyre-Kishlay_Raj-0E8388?style=for-the-badge&logo=target&logoColor=white" alt="Instahyre"/>
+  </a>
+  &nbsp;
+  <a href="https://internshala.com/profile/kishlay-raj" target="_blank">
+    <img src="https://img.shields.io/badge/Internshala-Kishlay_Raj-008BDC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Internshala"/>
+  </a>
+  &nbsp;
+  <a href="https://wellfound.com/u/kishlay-raj-19/u/kishlay-raj-19" target="_blank">
+    <img src="https://img.shields.io/badge/Wellfound-Kishlay_Raj-000000?style=for-the-badge&logo=angellist&logoColor=white" alt="Wellfound"/>
+  </a>
+  &nbsp;
+  <a href="https://cutshort.io/profile/candidate-settings/profile" target="_blank">
+    <img src="https://img.shields.io/badge/Cutshort-Kishlay_Raj-4A154B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Cutshort"/>
+  </a>
+  &nbsp;
+  <a href="https://profile.indeed.com/p/kishlayraj" target="_blank">
+    <img src="https://img.shields.io/badge/Indeed-Kishlay_Raj-2164F3?style=for-the-badge&logo=indeed&logoColor=white" alt="Indeed"/>
   </a>
 </p>
 
@@ -43,7 +68,7 @@
 
 High-impact **Lead Backend & Distributed Systems Engineer** with **4+ years of production experience** architecting mission-critical IoT telemetry backends, high-concurrency event-driven architectures, and distributed renewable energy monitoring platforms.
 
-- ☀️ **Production Fleet Scale (Verified Live):** Direct architecture owner of Involtics SolarHub platform managing **730.59 kWp installed solar capacity** across **180 commercial and residential plants**, **4,911+ live dataloggers**, and **134+ industrial inverters** with **99.9% uptime**.
+- ☀️ **Production Fleet Scale (Verified Live):** Direct architecture owner of Involtics SolarHub platform managing **724.59 kWp installed solar capacity** across **177 commercial and residential plants**, **4,912+ live dataloggers**, and **134+ industrial inverters** with **99.9% uptime**.
 - ⚡ **High-Throughput Telemetry Pipeline:** Operating clustered **Mosquitto MQTT brokers** (TLS/mTLS) ingesting **150,000+ daily telemetry packets (~2 min 15 sec cadence)** (~2-minute telemetry intervals) with peak bursts exceeding **1,700 messages/sec** and zero message loss.
 - 🗄️ **Time-Series Optimization:** Architected partitioned **TimescaleDB hypertables** with automated chunk compression and compound indexing, slashing dashboard analytical query latency by **95%** across **100M+ historical telemetry records**.
 - 🔄 **Enterprise Protocols & Remote Control:** Implemented bidirectional inverter telemetry and parameter control supporting **GB3024 ASCII CRC-16 protocol** and **Deye Modbus RTU V133 protocol** for active/reactive power regulation, work modes, and smart meter integration.
@@ -128,7 +153,7 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
 
 ### 🚀 **Lead Backend & Cloud Systems Engineer** | *Watthut Electronics / Involtics India LLP*
 *Jan 2025 – Present | Greater Noida, India*
-- Direct end-to-end architecture ownership of centralized solar IoT platform managing **730.59 kWp installed solar capacity** across **180 commercial and residential plants**, **4,911+ live dataloggers**, and **134+ industrial inverters** with **99.9% uptime**.
+- Direct end-to-end architecture ownership of centralized solar IoT platform managing **724.59 kWp installed solar capacity** across **177 commercial and residential plants**, **4,912+ live dataloggers**, and **134+ industrial inverters** with **99.9% uptime**.
 - Architected enterprise **Mosquitto MQTT ingestion engine** handling **150,000+ daily telemetry packets (~2 min 15 sec cadence)** (~2-minute telemetry intervals) with peak bursts exceeding **1,700 msgs/sec** and zero packet drops.
 - Designed partitioned **TimescaleDB hypertables** with automated chunk retention and compression, slashing analytical dashboard query latency by **95%** across **100M+ rows**.
 - Implemented full-duplex remote inverter parameter control using **GB3024 ASCII CRC-16** and **Deye Modbus RTU V133**, enabling remote grid-tied/zero-export limits and work-mode switching.
