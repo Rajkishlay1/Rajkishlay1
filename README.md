@@ -140,9 +140,9 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
 
 <br/>
 
-<!-- SKILL ICONS -->
+<!-- SKILL ICONS (WITH NAMES) -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,redis,aws,docker,linux,git,github,gitlab,bash,nginx&perline=7" alt="Tech Stack Badges" />
+  <img src="./assets/tech_stack.svg" alt="Tech Stack Badges" width="100%" />
 </p>
 
 </div>
