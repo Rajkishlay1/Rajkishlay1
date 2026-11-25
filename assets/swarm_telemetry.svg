@@ -78,12 +78,12 @@
   <g transform="translate(30, 95)">
     <!-- Card 1: Plants -->
     <rect x="0" y="0" width="190" height="90" rx="10" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
-    <text x="20" y="38" class="metric-val" fill="#38BDF8">177</text>
+    <text x="20" y="38" class="metric-val" fill="#38BDF8">178</text>
     <text x="20" y="65" class="metric-lbl">Monitored Plants</text>
 
     <!-- Card 2: Fleet Capacity -->
     <rect x="205" y="0" width="190" height="90" rx="10" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
-    <text x="225" y="38" class="metric-val" fill="#34D399">724.59 <tspan font-size="14">kWp</tspan></text>
+    <text x="225" y="38" class="metric-val" fill="#34D399">729.59 <tspan font-size="14">kWp</tspan></text>
     <text x="225" y="65" class="metric-lbl">Grid/Hybrid Capacity</text>
 
     <!-- Card 3: Dataloggers -->
