@@ -207,6 +207,12 @@ Distributed multi-server high-availability ecosystem running across dedicated AW
 </p>
 
 <p align="center">
+  <img src="./assets/live_builder_snapshot.svg" alt="Live Builder Snapshot (Auto-Updated Every 6 Hours)" width="100%" />
+</p>
+
+<br/>
+
+<p align="center">
   <img src="./assets/languages.svg" alt="Top Languages" width="48%" />
 </p>
 

@@ -1,0 +1,38 @@
+name: 🔄 Live GitHub Profile Snapshot (Every 6 Hours)
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🎨 Generate Live Builder Snapshot SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_live_profile.py
+
+      - name: 💾 Commit & Push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/live_builder_snapshot.svg
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto-update live profile snapshot (6h cycle)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
