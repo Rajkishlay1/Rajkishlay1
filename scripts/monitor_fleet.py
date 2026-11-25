@@ -18,7 +18,7 @@ ENDPOINTS = [
         "target_ip": "3.7.128.202",
         "type": "INVENTA DATABASE (S2)",
         "critical": True,
-        "expected": [200, 301, 302]
+        "expected": [200, 301, 302, 401]  # 401 = Basic Auth secured
     },
     {
         "name": "Involtics Main Site",
